@@ -9,6 +9,7 @@
     "bondingCost": 1,
     "bonded": false,
     "active": false,
+    "expendable": true,
     "costPerForce": 0,
     "cost": 0,
     "notes": "Single-use, expendable fetish focus: enhances one casting of a spell of its category, then is spent. No Karma bonding. Comes in per-category versions (combat fetish focus, manipulation fetish focus, etc.). If the spell requires a fetish, the fetish focus satisfies that requirement. Grimoire p.23, 27."

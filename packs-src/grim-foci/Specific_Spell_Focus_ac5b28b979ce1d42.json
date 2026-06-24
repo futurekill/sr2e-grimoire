@@ -9,6 +9,7 @@
     "bondingCost": 1,
     "bonded": false,
     "active": false,
+    "expendable": false,
     "costPerForce": 0,
     "cost": 0,
     "notes": "Bonded to one specific named spell (cheaper and narrower than a category focus). Bonding Karma = 1 × Force. Grimoire p.24, 27."

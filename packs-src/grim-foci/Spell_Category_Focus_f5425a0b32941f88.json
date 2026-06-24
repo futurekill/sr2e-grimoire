@@ -9,6 +9,7 @@
     "bondingCost": 3,
     "bonded": false,
     "active": false,
+    "expendable": false,
     "costPerForce": 0,
     "cost": 0,
     "notes": "Covers one entire spell category (Combat, Detection, Health, Illusion, or Manipulation). Bonding Karma = 3 × Force. (Also called a Spell Purpose Focus.) Grimoire p.24, 27."

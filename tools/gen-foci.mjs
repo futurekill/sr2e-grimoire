@@ -15,7 +15,7 @@ const idFor = (s) => createHash("sha1").update("grim-focus:" + s).digest("hex").
 // bondingCost = Karma ratio per Force (FocusData min is 1; Fetish has no bonding
 // but the schema floor is 1, so the single-use truth lives in notes).
 const FOCI = [
-  { name: "Fetish Focus", focusType: "spell", bondingCost: 1,
+  { name: "Fetish Focus", focusType: "spell", bondingCost: 1, expendable: true,
     notes: "Single-use, expendable fetish focus: enhances one casting of a spell of its category, then is spent. No Karma bonding. Comes in per-category versions (combat fetish focus, manipulation fetish focus, etc.). If the spell requires a fetish, the fetish focus satisfies that requirement. Grimoire p.23, 27." },
   { name: "Specific Spell Focus", focusType: "spell", bondingCost: 1,
     notes: "Bonded to one specific named spell (cheaper and narrower than a category focus). Bonding Karma = 1 × Force. Grimoire p.24, 27." },
@@ -29,7 +29,8 @@ function focus(f) {
     _id, name: f.name, type: "focus", img: "icons/svg/daze.svg",
     system: {
       focusType: f.focusType, force: 1, bondingCost: f.bondingCost,
-      bonded: false, active: false, costPerForce: 0, cost: 0, notes: f.notes
+      bonded: false, active: false, expendable: f.expendable ?? false,
+      costPerForce: 0, cost: 0, notes: f.notes
     },
     effects: [], flags: {}, folder: null, sort: 0,
     _stats: { coreVersion: "13.351", systemId: "sr2e", systemVersion: "0.1.0", createdTime: 1782100000000, modifiedTime: 1782100000000, lastModifiedBy: null, compendiumSource: null, duplicateSource: null, exportSource: null },

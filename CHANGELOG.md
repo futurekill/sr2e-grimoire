@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.1
+
+- The **Fetish Focus** is now flagged single-use (`expendable`), so the system's
+  magic tab shows a one-click **Spend** button for it. Requires the system build
+  that adds `FocusData.expendable`.
+
 ## 0.1.0 — Totems, foci, adept powers
 
 Character-facing magic content from *The Grimoire, 2nd Edition* (FASA 7903),
