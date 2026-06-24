@@ -1,0 +1,38 @@
+{
+  "_id": "f7cddaf8ff7bc502",
+  "name": "Missile Parry",
+  "type": "adeptPower",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "pointCost": 1,
+    "level": 1,
+    "maxLevel": 1,
+    "description": "<p>Pluck slow-moving missile weapons (arrows, thrown knives, shuriken) out of the air. Make a Reaction Test against a Target Number set by the attack; the successes parry it as a normal defense.</p>",
+    "attributeMods": {
+      "body": 0,
+      "quickness": 0,
+      "strength": 0,
+      "reaction": 0
+    },
+    "notes": "Cost 1 point. Does not work against bullets. Grimoire p.34."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1782100000000,
+    "modifiedTime": 1782100000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!f7cddaf8ff7bc502"
+}

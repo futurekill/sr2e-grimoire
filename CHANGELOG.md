@@ -1,0 +1,18 @@
+# Changelog
+
+## 0.1.0 — Totems, foci, adept powers
+
+Character-facing magic content from *The Grimoire, 2nd Edition* (FASA 7903),
+render-verified:
+
+- **6 Druid totems** (book p.28-29) — Moon, Oak, Sea, Sun, Wildcat, Wyrm —
+  injected into `CONFIG.SR2E.totems` at setup (an `esmodules` script), so they
+  appear in the shaman totem list. Same shape as core totems.
+- **3 foci** (`grim-foci`, book p.23-27) — Fetish Focus (single-use), Specific
+  Spell Focus, Spell Category Focus — with the Grimoire bonding ratios.
+- **6 physical adept powers** (`grim-adept-powers`, book p.34) — Attribute Boost,
+  Body Control, Enhanced Centering, Missile Parry, Mystic Armor, Suspended State.
+
+The rest of the Grimoire is rules (the Ways, enchanting, initiation, metamagic,
+geasa, magical groups, spell design) — system mechanics, not content, so out of
+scope here. Requires the `sr2e` system ≥ 0.10.0.

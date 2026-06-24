@@ -1,0 +1,38 @@
+{
+  "_id": "8910da4d6b4d8736",
+  "name": "Attribute Boost",
+  "type": "adeptPower",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "pointCost": 0.5,
+    "level": 1,
+    "maxLevel": 6,
+    "description": "<p>Temporarily boost a physical Attribute (Body, Quickness, or Strength). Activating it is a Magic Test; each success adds 1 to the Attribute (to a maximum of 1.5× its racial maximum) for (successes) Combat Turns, then causes Drain.</p>",
+    "attributeMods": {
+      "body": 0,
+      "quickness": 0,
+      "strength": 0,
+      "reaction": 0
+    },
+    "notes": "Cost 0.5 per Level. Drain by the boost reached (Attribute Boost Drain Table): ≤½ racial max = L, up to racial max = M, up to 1.5× = S, beyond = D; resisted like normal Drain (Willpower), every 2 successes reduces level, excess is Stun. Grimoire p.34."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1782100000000,
+    "modifiedTime": 1782100000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8910da4d6b4d8736"
+}

@@ -1,0 +1,35 @@
+{
+  "_id": "ac5b28b979ce1d42",
+  "name": "Specific Spell Focus",
+  "type": "focus",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "focusType": "spell",
+    "force": 1,
+    "bondingCost": 1,
+    "bonded": false,
+    "active": false,
+    "costPerForce": 0,
+    "cost": 0,
+    "notes": "Bonded to one specific named spell (cheaper and narrower than a category focus). Bonding Karma = 1 × Force. Grimoire p.24, 27."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1782100000000,
+    "modifiedTime": 1782100000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ac5b28b979ce1d42"
+}

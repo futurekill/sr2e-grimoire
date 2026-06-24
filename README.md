@@ -9,13 +9,16 @@ groups); this module ships only the parts that map to droppable items or system
 config. Requires the `sr2e` system (≥ 0.10.0) and is enabled per-world. Private
 repo — copyrighted FASA content, personal use only.
 
-## Status
-- **Totems** ✅ — the 6 Druid totems (Moon, Oak, Sea, Sun, Wildcat, Wyrm) added
-  to the shaman totem list via a setup-hook config injection.
-- **Foci** — TODO (`grim-foci`).
-- **Physical adept powers** — TODO (`grim-adept-powers`).
+## Status — v0.1.0
+- **Totems** ✅ — 6 Druid totems (Moon, Oak, Sea, Sun, Wildcat, Wyrm) added to the
+  shaman totem list via a setup-hook config injection.
+- **Foci** ✅ — 3 new focus types (`grim-foci`): Fetish, Specific Spell, Spell
+  Category, with the Grimoire bonding ratios.
+- **Physical adept powers** ✅ — 6 powers (`grim-adept-powers`): Attribute Boost,
+  Body Control, Enhanced Centering, Missile Parry, Mystic Armor, Suspended State.
 
-See `docs/PLAN.md`.
+That's the Grimoire's droppable content; the rest is rules (out of scope). See
+`docs/PLAN.md`.
 
 ## Build
 ```

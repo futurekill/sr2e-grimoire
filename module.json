@@ -20,6 +20,12 @@
     { "name": "James Candalino" }
   ],
   "esmodules": ["scripts/register-grimoire.mjs"],
-  "packs": [],
+  "packs": [
+    { "name": "grim-foci", "label": "Grimoire — Foci", "path": "packs/grim-foci", "type": "Item", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
+    { "name": "grim-adept-powers", "label": "Grimoire — Adept Powers", "path": "packs/grim-adept-powers", "type": "Item", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+  ],
+  "packFolders": [
+    { "name": "The Grimoire", "sorting": "m", "packs": ["grim-foci", "grim-adept-powers"] }
+  ],
   "flags": {}
 }

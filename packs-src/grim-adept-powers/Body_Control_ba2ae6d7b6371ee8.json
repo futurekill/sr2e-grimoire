@@ -1,0 +1,38 @@
+{
+  "_id": "ba2ae6d7b6371ee8",
+  "name": "Body Control",
+  "type": "adeptPower",
+  "img": "icons/svg/aura.svg",
+  "system": {
+    "pointCost": 0.5,
+    "level": 1,
+    "maxLevel": 6,
+    "description": "<p>Each level grants +1 die to resist the effects of gases, drugs, toxins, and poisons (added to the Damage Resistance Test against such substances).</p>",
+    "attributeMods": {
+      "body": 0,
+      "quickness": 0,
+      "strength": 0,
+      "reaction": 0
+    },
+    "notes": "Cost 0.5 per Level. Grimoire p.34."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1782100000000,
+    "modifiedTime": 1782100000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ba2ae6d7b6371ee8"
+}

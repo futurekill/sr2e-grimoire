@@ -1,0 +1,35 @@
+{
+  "_id": "f5425a0b32941f88",
+  "name": "Spell Category Focus",
+  "type": "focus",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "focusType": "spell",
+    "force": 1,
+    "bondingCost": 3,
+    "bonded": false,
+    "active": false,
+    "costPerForce": 0,
+    "cost": 0,
+    "notes": "Covers one entire spell category (Combat, Detection, Health, Illusion, or Manipulation). Bonding Karma = 3 × Force. (Also called a Spell Purpose Focus.) Grimoire p.24, 27."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1782100000000,
+    "modifiedTime": 1782100000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!f5425a0b32941f88"
+}

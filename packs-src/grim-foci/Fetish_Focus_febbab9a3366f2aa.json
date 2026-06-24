@@ -1,0 +1,35 @@
+{
+  "_id": "febbab9a3366f2aa",
+  "name": "Fetish Focus",
+  "type": "focus",
+  "img": "icons/svg/daze.svg",
+  "system": {
+    "focusType": "spell",
+    "force": 1,
+    "bondingCost": 1,
+    "bonded": false,
+    "active": false,
+    "costPerForce": 0,
+    "cost": 0,
+    "notes": "Single-use, expendable fetish focus: enhances one casting of a spell of its category, then is spent. No Karma bonding. Comes in per-category versions (combat fetish focus, manipulation fetish focus, etc.). If the spell requires a fetish, the fetish focus satisfies that requirement. Grimoire p.23, 27."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.1.0",
+    "createdTime": 1782100000000,
+    "modifiedTime": 1782100000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!febbab9a3366f2aa"
+}
