@@ -1,0 +1,15 @@
+{
+  "name": "sr2e-grimoire",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Grimoire content module for the SR2E FoundryVTT system",
+  "type": "module",
+  "scripts": {
+    "build-packs": "node tools/build-packs.mjs",
+    "extract-packs": "node tools/extract-packs.mjs",
+    "validate": "node tools/validate-packs.mjs"
+  },
+  "devDependencies": {
+    "classic-level": "^3.0.0"
+  }
+}
