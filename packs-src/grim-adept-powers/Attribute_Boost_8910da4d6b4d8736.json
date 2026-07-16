@@ -1,7 +1,7 @@
 {
   "_id": "8910da4d6b4d8736",
   "name": "Attribute Boost",
-  "type": "adeptPower",
+  "type": "adept_power",
   "img": "icons/svg/aura.svg",
   "system": {
     "pointCost": 0.5,

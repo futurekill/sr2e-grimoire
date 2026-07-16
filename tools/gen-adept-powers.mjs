@@ -1,5 +1,5 @@
 // Generate the Grimoire's additional physical-adept powers (book p.34) as system
-// `adeptPower` items into packs-src/grim-adept-powers. Six powers not in core.
+// `adept_power` items into packs-src/grim-adept-powers. Six powers not in core.
 // Leveled effects and the real caps (racial max, Magic Rating, drain table) live
 // in the description; attributeMods stays 0 because these are situational/armor
 // effects, not permanent attribute bonuses. Re-run, then build-packs.
@@ -34,7 +34,7 @@ const POWERS = [
 function power(p) {
   const _id = idFor(p.name);
   return {
-    _id, name: p.name, type: "adeptPower", img: "icons/svg/aura.svg",
+    _id, name: p.name, type: "adept_power", img: "icons/svg/aura.svg",
     system: {
       pointCost: p.pointCost, level: 1, maxLevel: p.maxLevel,
       description: `<p>${p.desc}</p>`,

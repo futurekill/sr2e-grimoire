@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.2 — 2026-07-16
+### Fixed
+- **The six adept powers could not be created.** They shipped with `type:
+  "adeptPower"`, but the system registers `adept_power` — so Foundry silently
+  refused to load them and Attribute Boost, Body Control, Enhanced Centering,
+  Missile Parry, Mystic Armor and Suspended State were unusable. Fixed at the
+  generator so it cannot come back, and `npm run validate` now rejects any
+  document whose type the system doesn't register.
+
 ## 0.1.1
 
 - The **Fetish Focus** is now flagged single-use (`expendable`), so the system's

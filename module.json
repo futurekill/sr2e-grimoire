@@ -2,7 +2,7 @@
   "id": "sr2e-grimoire",
   "title": "Shadowrun 2E: The Grimoire",
   "description": "Character-facing magic content from The Grimoire, 2nd Edition (FASA 7903) for the Shadowrun 2nd Edition system: additional totems, foci, and physical adept powers.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -12,20 +12,53 @@
       {
         "id": "sr2e",
         "type": "system",
-        "compatibility": { "minimum": "0.10.0" }
+        "compatibility": {
+          "minimum": "0.10.0"
+        }
       }
     ]
   },
   "authors": [
-    { "name": "James Candalino" }
+    {
+      "name": "James Candalino"
+    }
   ],
-  "esmodules": ["scripts/register-grimoire.mjs"],
+  "esmodules": [
+    "scripts/register-grimoire.mjs"
+  ],
   "packs": [
-    { "name": "grim-foci", "label": "Grimoire — Foci", "path": "packs/grim-foci", "type": "Item", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } },
-    { "name": "grim-adept-powers", "label": "Grimoire — Adept Powers", "path": "packs/grim-adept-powers", "type": "Item", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+    {
+      "name": "grim-foci",
+      "label": "Grimoire — Foci",
+      "path": "packs/grim-foci",
+      "type": "Item",
+      "system": "sr2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "grim-adept-powers",
+      "label": "Grimoire — Adept Powers",
+      "path": "packs/grim-adept-powers",
+      "type": "Item",
+      "system": "sr2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
   ],
   "packFolders": [
-    { "name": "The Grimoire", "sorting": "m", "packs": ["grim-foci", "grim-adept-powers"] }
+    {
+      "name": "The Grimoire",
+      "sorting": "m",
+      "packs": [
+        "grim-foci",
+        "grim-adept-powers"
+      ]
+    }
   ],
   "flags": {}
 }

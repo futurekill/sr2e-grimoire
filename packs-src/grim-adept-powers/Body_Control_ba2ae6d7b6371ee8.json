@@ -1,7 +1,7 @@
 {
   "_id": "ba2ae6d7b6371ee8",
   "name": "Body Control",
-  "type": "adeptPower",
+  "type": "adept_power",
   "img": "icons/svg/aura.svg",
   "system": {
     "pointCost": 0.5,

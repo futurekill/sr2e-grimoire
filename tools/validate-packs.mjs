@@ -1,12 +1,24 @@
-// Pre-flight validator for the Rigger 2 packs (QA-PLAN §0). Runs with no
-// Foundry: checks every packs-src/*/*.json document for valid JSON, required
-// keys, correct _key form, and duplicate _ids; reports per-pack counts. Exits
-// non-zero if anything fails. Run: `node tools/validate-packs.mjs`.
+// Pre-flight validator for the Grimoire packs. Runs with no Foundry: checks
+// every packs-src/*/*.json document for valid JSON, required keys, correct _key
+// form, duplicate _ids, and that each doc's `type` is one the sr2e system
+// actually registers; reports per-pack counts. Exits non-zero if anything fails.
+// Run: `node tools/validate-packs.mjs`.
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 const ROOT = "packs-src";
-const ACTOR_PACKS = new Set(["ff-vehicles"]); // packs whose docs are Actors
+const ACTOR_PACKS = new Set();   // this module ships Items only
+
+// Item types the sr2e system registers (CONFIG.Item.dataModels in
+// sr2e-foundryvtt/module/sr2e.mjs). A doc whose type is not in this list CANNOT
+// be created in Foundry — it builds, ships, and silently fails to load. This
+// module shipped six powers typed "adeptPower" instead of "adept_power" for
+// exactly that reason, so the check is worth its keep. If the system adds a
+// type, add it here.
+const ITEM_TYPES = new Set(["skill", "weapon", "armor", "spell", "cyberware",
+  "bioware", "gear", "program", "adept_power", "contact", "lifestyle", "ammo",
+  "focus", "vehicle_mod", "race", "tradition", "quality"]);
+const ACTOR_TYPES = new Set(["character", "npc", "vehicle", "spirit", "ic", "host"]);
 let problems = 0;
 const note = (m) => { console.error("  ✗ " + m); problems++; };
 
@@ -38,6 +50,10 @@ for (const pack of packs.sort()) {
       else ids.set(doc._id, f);
     }
     if (doc.system && typeof doc.system !== "object") note(`${f}: system is not an object`);
+    const valid = ACTOR_PACKS.has(pack) ? ACTOR_TYPES : ITEM_TYPES;
+    if (doc.type && !valid.has(doc.type)) {
+      note(`${f}: type "${doc.type}" is not registered by sr2e — this document cannot be created`);
+    }
   }
 }
 
