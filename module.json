@@ -2,7 +2,7 @@
   "id": "sr2e-grimoire",
   "title": "Shadowrun 2E: The Grimoire",
   "description": "Character-facing magic content from The Grimoire, 2nd Edition (FASA 7903) for the Shadowrun 2nd Edition system: additional totems, foci, and physical adept powers.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -13,7 +13,7 @@
         "id": "sr2e",
         "type": "system",
         "compatibility": {
-          "minimum": "0.10.0"
+          "minimum": "0.11.0"
         }
       }
     ]

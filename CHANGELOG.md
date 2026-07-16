@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.1.3 — 2026-07-16
+### Fixed
+- **Requires sr2e 0.11.0, not 0.10.0.** The Fetish Focus uses
+  `focus.system.expendable`, which the system only added in 0.11.0 — on 0.10.x it
+  would install and quietly lose the single-use behaviour that defines it.
+
 ## 0.1.2 — 2026-07-16
 ### Fixed
 - **The six adept powers could not be created.** They shipped with `type:
