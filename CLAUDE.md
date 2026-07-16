@@ -27,8 +27,9 @@ manipulation. Valid conjuring domains: city/field/forest/hearth/lake/mountain/
 prairie/river/sea/desert/swamp/wind. `node tools/check-totems.mjs` asserts these.
 
 ## Packs (foci / adept powers)
-`packs-src/` JSON → `npm run build-packs [name]` → `packs/` (committed, like the
-other content modules). Add each pack to `module.json` only once populated.
+`packs-src/` JSON → `npm run build-packs [name]` → `packs/` (gitignored build
+artifact — rebuild after editing sources; Foundry reads the LevelDB, not the
+JSON). Add each pack to `module.json` only once populated.
 
 ## Copyright
 *The Grimoire* / *Shadowrun* are © FASA and rights holders. Personal table use
