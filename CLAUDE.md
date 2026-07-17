@@ -3,7 +3,7 @@
 FoundryVTT **V13** content module adding character-facing magic content from
 *The Grimoire, 2nd Edition* (FASA 7903) to the **Shadowrun 2nd Edition system**
 (`sr2e`). Separate package: own repo, own packs, depends on the system via
-`module.json` → `relationships.systems` (sr2e ≥ 0.10.0).
+`module.json` → `relationships.systems` (sr2e ≥ 0.11.0).
 
 ## What this module is (and isn't)
 The Grimoire is ~95% **rules** (the Ways, enchanting, initiation, metamagic,

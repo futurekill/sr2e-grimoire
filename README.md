@@ -6,7 +6,8 @@ additional totems, foci, and physical adept powers.
 
 The Grimoire is mostly *rules* (initiation, metamagic, enchanting, magical
 groups); this module ships only the parts that map to droppable items or system
-config. Requires the `sr2e` system (≥ 0.10.0) and is enabled per-world. Private
+config. Requires the `sr2e` system (≥ 0.11.0 — the Fetish Focus needs the
+`focus.system.expendable` field that release added) and is enabled per-world. Private
 repo — copyrighted FASA content, personal use only.
 
 ## Status — v0.1.0
