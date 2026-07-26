@@ -2,7 +2,7 @@
   "_id": "f7cddaf8ff7bc502",
   "name": "Missile Parry",
   "type": "adept_power",
-  "img": "icons/svg/aura.svg",
+  "img": "modules/sr2e-grimoire/assets/item_icons/adept_power/missile-parry.webp",
   "system": {
     "pointCost": 1,
     "level": 1,

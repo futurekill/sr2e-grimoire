@@ -2,7 +2,7 @@
   "_id": "ba2ae6d7b6371ee8",
   "name": "Body Control",
   "type": "adept_power",
-  "img": "icons/svg/aura.svg",
+  "img": "modules/sr2e-grimoire/assets/item_icons/adept_power/body-control.webp",
   "system": {
     "pointCost": 0.5,
     "level": 1,

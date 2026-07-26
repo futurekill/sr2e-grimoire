@@ -2,7 +2,7 @@
   "_id": "8910da4d6b4d8736",
   "name": "Attribute Boost",
   "type": "adept_power",
-  "img": "icons/svg/aura.svg",
+  "img": "modules/sr2e-grimoire/assets/item_icons/adept_power/attribute-boost.webp",
   "system": {
     "pointCost": 0.5,
     "level": 1,

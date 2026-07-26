@@ -2,7 +2,7 @@
   "_id": "aa5b3ad241d4737b",
   "name": "Enhanced Centering",
   "type": "adept_power",
-  "img": "icons/svg/aura.svg",
+  "img": "modules/sr2e-grimoire/assets/item_icons/adept_power/enhanced-centering.webp",
   "system": {
     "pointCost": 2,
     "level": 1,

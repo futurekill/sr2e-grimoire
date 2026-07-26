@@ -2,7 +2,7 @@
   "_id": "febbab9a3366f2aa",
   "name": "Fetish Focus",
   "type": "focus",
-  "img": "icons/svg/daze.svg",
+  "img": "modules/sr2e-grimoire/assets/item_icons/focus/fetish-focus.webp",
   "system": {
     "focusType": "spell",
     "force": 1,

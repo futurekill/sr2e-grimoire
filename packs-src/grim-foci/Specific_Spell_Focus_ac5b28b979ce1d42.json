@@ -2,7 +2,7 @@
   "_id": "ac5b28b979ce1d42",
   "name": "Specific Spell Focus",
   "type": "focus",
-  "img": "icons/svg/daze.svg",
+  "img": "modules/sr2e-grimoire/assets/item_icons/focus/specific-spell-focus.webp",
   "system": {
     "focusType": "spell",
     "force": 1,
