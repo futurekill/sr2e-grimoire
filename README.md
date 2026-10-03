@@ -1,29 +1,50 @@
 # Shadowrun 2E: The Grimoire
 
-A content module for the [SR2E FoundryVTT system](../sr2e-foundryvtt) adding
-character-facing magic content from *The Grimoire, 2nd Edition* (FASA 7903):
-additional totems, foci, and physical adept powers.
+A Foundry VTT V13 module bringing *The Grimoire, 2nd Edition* (FASA 7903) to the [Shadowrun 2nd Edition system](https://github.com/futurekill/sr2e-foundryvtt) (`sr2e`). The Grimoire's droppable content: six Druid totems, three new focus types, and six physical adept powers.
 
-The Grimoire is mostly *rules* (initiation, metamagic, enchanting, magical
-groups); this module ships only the parts that map to droppable items or system
-config. Requires the `sr2e` system (≥ 0.11.0 — the Fetish Focus needs the
-`focus.system.expendable` field that release added) and is enabled per-world. Private
-repo — copyrighted FASA content, personal use only.
+## Contents
 
-## Status — v0.1.0
-- **Totems** ✅ — 6 Druid totems (Moon, Oak, Sea, Sun, Wildcat, Wyrm) added to the
-  shaman totem list via a setup-hook config injection.
-- **Foci** ✅ — 3 new focus types (`grim-foci`): Fetish, Specific Spell, Spell
-  Category, with the Grimoire bonding ratios.
-- **Physical adept powers** ✅ — 6 powers (`grim-adept-powers`): Attribute Boost,
-  Body Control, Enhanced Centering, Missile Parry, Mystic Armor, Suspended State.
+| Pack | Contents |
+|---|---|
+| Grimoire — Foci | 3 items |
+| Grimoire — Adept Powers | 6 items |
 
-That's the Grimoire's droppable content; the rest is rules (out of scope). See
-`docs/PLAN.md`.
+## Notes
 
-## Build
+- **Totems** (Moon, Oak, Sea, Sun, Wildcat, Wyrm) are added to the system's shaman totem list when the module is enabled; there's no pack for them.
+- **Foci:** Fetish, Specific Spell and Spell Category, with the Grimoire bonding ratios.
+- **Adept powers:** Attribute Boost, Body Control, Enhanced Centering, Missile Parry, Mystic Armor, Suspended State.
+- The rest of the book is rules (initiation, metamagic, enchanting, magical groups) and isn't imported.
+
+## Requirements
+
+- Foundry VTT V13
+- The `sr2e` system, version 0.11.0 or later
+
+## Installation
+
+In Foundry, **Add-on Modules → Install Module**, and paste this manifest URL:
+
 ```
+https://github.com/futurekill/sr2e-grimoire/releases/latest/download/module.json
+```
+
+Then enable it in your world (**Game Settings → Manage Modules**).
+
+## Development
+
+`packs-src/` (one JSON file per document) is the source of truth. `packs/` is built from it, gitignored, and rebuilt by the release workflow.
+
+```bash
 npm install
-node tools/check-totems.mjs   # validate totem category/domain keys
-npm run build-packs           # packs-src/ JSON -> packs/ LevelDB (once packs exist)
+npm run build-packs     # packs-src/ JSON -> packs/ LevelDB (close Foundry first)
+npm run extract-packs   # pull edits made in Foundry back to packs-src/
+npm run validate        # pre-flight checks on the pack sources
+npm run lint
 ```
+
+To release: add a `## X.Y.Z — date` section to `CHANGELOG.md` (the release notes come from it), bump `module.json`, then tag and push `vX.Y.Z`.
+
+## Copyright
+
+*The Grimoire, 2nd Edition* and *Shadowrun* are © FASA and their rights holders. This is a fan-made, non-commercial module for personal table use by owners of the book.
