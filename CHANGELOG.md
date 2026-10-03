@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.2.0 — 2026-07-26
+
+### Added
+- Custom art for all 9 documents, replacing Foundry's stock icons. The three foci
+  escalate from a crude single-use fetish to an ornate category focus; the six
+  adept powers are luminous emblems in indigo and pale gold.
+
+### Fixed
+- The README and dev notes gave the required system as sr2e 0.10.0; it is 0.11.0
+  (the Fetish Focus needs `focus.system.expendable`).
+- Releases no longer package `.DS_Store` files.
+
 ## 0.1.3 — 2026-07-16
 ### Fixed
 - **Requires sr2e 0.11.0, not 0.10.0.** The Fetish Focus uses
