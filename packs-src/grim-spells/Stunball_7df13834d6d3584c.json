@@ -1,0 +1,39 @@
+{
+  "_id": "7df13834d6d3584c",
+  "name": "Stunball",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/manaball.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drainCode": "((F / 2) - 1)D",
+    "target": "Willpower (R)",
+    "damageCode": "S",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "An area-effect spell that causes Stun damage. (The entry's second clause reads \"to a single target\", a slip: its first words and its name make it area-effect.) Type printed \"Maria\", a typo for Mana. Grimoire (2nd ed.) p.127.",
+    "force": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.104.5",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!7df13834d6d3584c"
+}

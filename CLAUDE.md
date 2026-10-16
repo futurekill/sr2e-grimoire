@@ -8,8 +8,12 @@ FoundryVTT **V13** content module adding character-facing magic content from
 ## What this module is (and isn't)
 The Grimoire is ~95% **rules** (the Ways, enchanting, initiation, metamagic,
 geasa, magical groups, spell *design*). This module ships only the bits that map
-to existing system data: **totems** (config), **foci** (`focus` items), and
-**physical adept powers** (`AdeptPowerData` items). The advanced-magic *mechanics*
+to existing system data: **totems** (config), **foci** (`focus` items),
+**physical adept powers** (`AdeptPowerData` items), and **spells** (`grim-spells`).
+The book DOES print a spell list (book p.124–134, with summary tables p.133–134):
+only the eight the Corporate Security Handbook needs are imported so far; the CSH
+generator copies them into its magicians. Extended Range has no system range value:
+use `limited` and put the rule (p.123) in the notes. The advanced-magic *mechanics*
 (initiation/metamagic/anchoring/…) are system features, intentionally out of
 scope here. See `docs/PLAN.md`.
 

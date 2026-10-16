@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+### Added
+- **Grimoire — Spells:** eight spells from the book's spell list (p.127–132): Stun Bolt,
+  Stunball, Wrecker, Detect Enemies (Extended Range), Influence, Blast Barrier, Bullet
+  Barrier and Spell Barrier. They're the Grimoire spells the Corporate Security
+  Handbook's magicians know. Each was read from a page render. The book's typos are
+  noted on the spell (Stunball's "Maria" for Mana, and its "single target"), and the
+  Extended Range rule (p.123) is spelled out, since the system has no Extended range.
+
 ## 0.2.0 — 2026-07-26
 
 ### Added

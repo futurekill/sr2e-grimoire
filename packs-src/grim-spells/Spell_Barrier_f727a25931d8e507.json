@@ -1,0 +1,39 @@
+{
+  "_id": "f727a25931d8e507",
+  "name": "Spell Barrier",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/mana-barrier.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "drainCode": "((F / 2) + 2)M",
+    "target": "6",
+    "damageCode": "",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "Like the mana barrier spell (SR2 p.158), but protects against spells. The personal form of this spell has a Drain Code of ((F / 2) + 2)L. Grimoire (2nd ed.) p.132.",
+    "force": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.104.5",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!f727a25931d8e507"
+}

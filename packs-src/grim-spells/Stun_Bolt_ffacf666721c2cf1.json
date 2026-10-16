@@ -1,0 +1,39 @@
+{
+  "_id": "ffacf666721c2cf1",
+  "name": "Stun Bolt",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/mana-bolt.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "drainCode": "((F / 2) - 1)S",
+    "target": "Willpower (R)",
+    "damageCode": "S",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "A bolt of magical energy that causes Stun damage to a single target. Grimoire (2nd ed.) p.127.",
+    "force": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.104.5",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ffacf666721c2cf1"
+}

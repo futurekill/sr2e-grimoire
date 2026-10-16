@@ -48,6 +48,17 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "grim-spells",
+      "label": "Grimoire — Spells",
+      "path": "packs/grim-spells",
+      "type": "Item",
+      "system": "sr2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -56,7 +67,8 @@
       "sorting": "m",
       "packs": [
         "grim-foci",
-        "grim-adept-powers"
+        "grim-adept-powers",
+        "grim-spells"
       ]
     }
   ],

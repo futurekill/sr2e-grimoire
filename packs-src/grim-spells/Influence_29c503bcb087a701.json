@@ -1,0 +1,39 @@
+{
+  "_id": "29c503bcb087a701",
+  "name": "Influence",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/control-thoughts.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "control",
+    "type": "mana",
+    "range": "limited",
+    "duration": "permanent",
+    "drainCode": "((F / 2) + 2)S",
+    "target": "Willpower (R)",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Like control thoughts (SR2 p.157), but permanently implants a single suggestion in the victim's mind; they act on it as if it were their own idea. Proving the idea false to the victim, or forcing the caster to withdraw it, overcomes the spell. Duration: Permanent (10 turns). Grimoire (2nd ed.) p.130.",
+    "force": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.104.5",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!29c503bcb087a701"
+}

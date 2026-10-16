@@ -1,0 +1,39 @@
+{
+  "_id": "b808826d1709335c",
+  "name": "Wrecker",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/ram.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "drainCode": "(F / 2)S",
+    "target": "Special: Object Resistance Table",
+    "damageCode": "S",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Works like the ram spell (SR2 p.151), but affects only a single vehicle (Restricted Target: Vehicles). Grimoire (2nd ed.) p.127.",
+    "force": 1
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.104.5",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!b808826d1709335c"
+}
