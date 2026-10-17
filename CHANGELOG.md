@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.3.0 — 2026-10-16
 
 ### Added
 - **Grimoire — Spells:** eight spells from the book's spell list (p.127–132): Stun Bolt,
