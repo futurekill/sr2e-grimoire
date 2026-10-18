@@ -1,5 +1,28 @@
 # Changelog
 
+## Unreleased
+
+### Added
+- **The rest of the Grimoire's spells:** 68 more, so the pack holds all 76 new spells of
+  the Spell Directory (p.126–132), each read from a page render. Combat: the fire and
+  stun families, Death Touch, Mana Cloud, Manablast, Powerblast, Ram Touch, Slay, Spirit
+  Bolt, Sterilize, Urban Renewal. Detection: Analyze Magic, the Extended Range spells,
+  Detect Magic, Mindlink. Health: Decrease Cybered Attribute, Decrease Reflexes, Healthy
+  Glow, Oxygenate, Preserve, Prophylaxis, Resist Pain, and the Grimoire's revised
+  Stabilize (as "Stabilize (Grimoire)", beside the core one). Illusion: Overstimulation,
+  Physical Mask, Spectacle, the Trid spells, Vehicle Mask. Manipulation: Control Animal,
+  Mob Mind, Mob Mood, Animate, Clout, Use (Skill), the acid spells, Astral Static, Bind,
+  Blade Barrier, (Critter) Form, Fashion, Fire Strike, Flame Burst, Lock, Makeover, Seal,
+  Shapechange, Thunderclap, Transform.
+- Fire, acid and blast elemental effects, and Clout's and Thunderclap's Stun damage, are
+  noted on the spell for the GM; the rest casts like any spell of its kind.
+
+### Fixed
+- **Spell Barrier drains ((F / 2) + 1)M,** the Table of Spells' value (p.134), not the
+  entry's +2: the book's design notes (p.125) give the anti-spell barrier the lower
+  drain. Stun Bolt keeps its entry's Serious drain (the table prints Deadly). A copy
+  already in your world keeps the old value; import it again from the compendium.
+
 ## 0.3.0 — 2026-10-16
 
 ### Added
