@@ -1,0 +1,39 @@
+{
+  "_id": "31f9a6c050615bbb",
+  "name": "Ram Touch",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/ram.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "physical",
+    "range": "touch",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "((F / 2) - 1)M",
+    "target": "Special: Object Resistance Table",
+    "damageCode": "S",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Damages inanimate objects like the ram spell (SR2 p.151), but the magician must touch the target. Grimoire (2nd ed.) p.127."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!31f9a6c050615bbb"
+}

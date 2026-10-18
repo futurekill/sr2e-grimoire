@@ -1,0 +1,39 @@
+{
+  "_id": "056b7d0d8994ce66",
+  "name": "Animate",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/levitate-item.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "telekinetic",
+    "type": "physical",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)M",
+    "target": "Special: Object Resistance Table",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Makes an inanimate object move as its shape allows (balls roll, rugs crawl, statues walk). Only the whole object moves, at metres per action equal to half the caster's Magic (round down). Grimoire (2nd ed.) p.130."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!056b7d0d8994ce66"
+}

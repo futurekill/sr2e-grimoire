@@ -1,0 +1,39 @@
+{
+  "_id": "ecf5d173b319bd9f",
+  "name": "Blade Barrier",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/barrier.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)M",
+    "target": "6",
+    "damageCode": "",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "Like physical barrier (SR2 p.158), but protects against bladed weapons. Barrier Rating equals the Force; Impact armour may be added. The personal form drains ((F / 2) + 2)L. Grimoire (2nd ed.) p.131."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ecf5d173b319bd9f"
+}

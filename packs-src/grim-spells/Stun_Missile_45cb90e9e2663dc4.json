@@ -1,0 +1,39 @@
+{
+  "_id": "45cb90e9e2663dc4",
+  "name": "Stun Missile",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/mana-missile.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "((F / 2) - 1)M",
+    "target": "Willpower (R)",
+    "damageCode": "M",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "A missile of magical energy that does Stun damage to a single target. Grimoire (2nd ed.) p.127."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!45cb90e9e2663dc4"
+}

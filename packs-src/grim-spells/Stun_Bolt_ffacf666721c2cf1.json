@@ -9,13 +9,13 @@
     "type": "mana",
     "range": "los",
     "duration": "instant",
+    "force": 1,
     "drainCode": "((F / 2) - 1)S",
     "target": "Willpower (R)",
     "damageCode": "S",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "A bolt of magical energy that causes Stun damage to a single target. Grimoire (2nd ed.) p.127.",
-    "force": 1
+    "notes": "A bolt of magical energy that does Stun damage to a single target. Drain from the entry, (F / 2) - 1, Serious; the Table of Spells (p.133) prints Deadly. Grimoire (2nd ed.) p.127."
   },
   "effects": [],
   "flags": {},
@@ -24,7 +24,7 @@
   "_stats": {
     "coreVersion": "13.351",
     "systemId": "sr2e",
-    "systemVersion": "0.104.5",
+    "systemVersion": "0.105.0",
     "createdTime": 1792000000000,
     "modifiedTime": 1792000000000,
     "lastModifiedBy": null,

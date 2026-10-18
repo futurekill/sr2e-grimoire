@@ -1,0 +1,39 @@
+{
+  "_id": "dc2d94c74cd5b241",
+  "name": "Spirit Bolt",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/mana-bolt.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "((F / 2) - 1)S",
+    "target": "Force (R)",
+    "damageCode": "S",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "A bolt of magical energy doing Physical damage to a single spirit (Restricted Target: spirits). Type printed \"Maria\", a typo for Mana. Grimoire (2nd ed.) p.127."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!dc2d94c74cd5b241"
+}

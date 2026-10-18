@@ -1,0 +1,39 @@
+{
+  "_id": "6ec93ef7696dd0c1",
+  "name": "Decrease Cybered Attribute -2",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/decrease-attribute.webp",
+  "system": {
+    "category": "health",
+    "subcategory": "",
+    "type": "physical",
+    "range": "touch",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 3)M",
+    "target": "10 - Essence",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Like decrease (attribute) (SR2 p.154), but lowers a cybered attribute by 2. Against cybered Reaction, raise the Drain Level by one. Grimoire (2nd ed.) p.129."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!6ec93ef7696dd0c1"
+}

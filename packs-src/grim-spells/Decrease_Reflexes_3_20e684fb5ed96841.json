@@ -1,0 +1,39 @@
+{
+  "_id": "20e684fb5ed96841",
+  "name": "Decrease Reflexes -3",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/increase-reflexes.webp",
+  "system": {
+    "category": "health",
+    "subcategory": "",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 3)D",
+    "target": "2 x Reaction",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "The reverse of increase reflexes (SR2 p.155): the target loses 3 Initiative dice. No effect on characters with cybernetic Initiative enhancements; anyone left with no (or negative) Initiative dice uses Reaction as Initiative. Grimoire (2nd ed.) p.129."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!20e684fb5ed96841"
+}

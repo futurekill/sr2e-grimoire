@@ -1,0 +1,39 @@
+{
+  "_id": "52c44f0c48397bad",
+  "name": "Sterilize",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/combat.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "((F / 2) + 1)D",
+    "target": "4",
+    "damageCode": "D",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "Area effect: kills small life forms (bacteria, microorganisms) and destroys loose biomaterial (skin flakes, stray hair, spilled blood), so it can't serve as a ritual material link (p.35; SR2 p.135). It doesn't touch biomaterial attached to a living being, nor bioweapons. One success is enough. Grimoire (2nd ed.) p.127."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!52c44f0c48397bad"
+}

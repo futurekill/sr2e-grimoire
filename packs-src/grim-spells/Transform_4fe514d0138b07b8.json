@@ -1,0 +1,39 @@
+{
+  "_id": "4fe514d0138b07b8",
+  "name": "Transform",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/manipulation.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "physical",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)S",
+    "target": "Willpower",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Turns the subject into a normal critter with only animal intelligence and no awareness of its former self. Clothing and gear don't change. Grimoire (2nd ed.) p.132."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4fe514d0138b07b8"
+}

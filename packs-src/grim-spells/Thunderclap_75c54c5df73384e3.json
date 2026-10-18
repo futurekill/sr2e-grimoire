@@ -1,0 +1,39 @@
+{
+  "_id": "75c54c5df73384e3",
+  "name": "Thunderclap",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/manipulation.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "(F / 2)S",
+    "target": "Body (R)",
+    "damageCode": "(F)M Stun",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "An explosion of air that does Stun damage and deafens the target 1 Combat Turn per 2 successes. Stun isn't automated for manipulation spells, so the GM resolves the damage. Grimoire (2nd ed.) p.132."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!75c54c5df73384e3"
+}

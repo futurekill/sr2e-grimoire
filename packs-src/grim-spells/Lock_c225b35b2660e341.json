@@ -1,0 +1,39 @@
+{
+  "_id": "c225b35b2660e341",
+  "name": "Lock",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/manipulation.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)M",
+    "target": "Special: Object Resistance Table",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Holds a door, portal or other closure magically shut while sustained; it has the door's own strength, so opening it means breaking or blasting through. Grimoire (2nd ed.) p.132."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!c225b35b2660e341"
+}

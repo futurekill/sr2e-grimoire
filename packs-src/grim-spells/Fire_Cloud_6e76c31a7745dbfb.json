@@ -1,0 +1,39 @@
+{
+  "_id": "6e76c31a7745dbfb",
+  "name": "Fire Cloud",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/fireball.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "((F / 2) + 1)D",
+    "target": "Body (R)",
+    "damageCode": "M",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "An area-effect cloud of magical energy doing Physical damage, with the elemental effect of fire (p.112; by hand). Grimoire (2nd ed.) p.126."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!6e76c31a7745dbfb"
+}

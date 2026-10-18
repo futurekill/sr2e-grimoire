@@ -1,0 +1,39 @@
+{
+  "_id": "8683bdb4a3160329",
+  "name": "Clout",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/magic-fingers.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "telekinetic",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "(F / 2)M",
+    "target": "4",
+    "damageCode": "(Willpower)M Stun",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "A telekinetic punch: damage (caster's Willpower)M Stun, with the normal Ranged Combat modifiers (SR2 p.87); casting successes increase the damage as in ranged combat, and Impact armour protects. Not a Force code, so the system leaves the damage to the GM. Grimoire (2nd ed.) p.131."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8683bdb4a3160329"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "88d1fc117f9179f5",
+  "name": "Death Touch",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/mana-bolt.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "mana",
+    "range": "touch",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "((F / 2) - 1)S",
+    "target": "Willpower (R)",
+    "damageCode": "D",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "A lethal combat spell: the magician must touch the target, who takes Physical damage. Grimoire (2nd ed.) p.126."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!88d1fc117f9179f5"
+}

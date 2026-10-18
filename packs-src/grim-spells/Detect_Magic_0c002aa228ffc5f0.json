@@ -1,0 +1,39 @@
+{
+  "_id": "0c002aa228ffc5f0",
+  "name": "Detect Magic",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/detection.webp",
+  "system": {
+    "category": "detection",
+    "subcategory": "",
+    "type": "mana",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "(F / 2)L",
+    "target": "4",
+    "damageCode": "",
+    "isAreaEffect": true,
+    "isVoluntary": true,
+    "notes": "An area-effect general hypersense on a voluntary subject: within limited range, detects active magic (foci; sustained, quickened or anchored spells; spirits). It doesn't detect magically active characters. Grimoire (2nd ed.) p.128."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0c002aa228ffc5f0"
+}

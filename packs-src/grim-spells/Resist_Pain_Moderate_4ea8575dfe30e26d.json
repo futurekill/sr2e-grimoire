@@ -1,0 +1,39 @@
+{
+  "_id": "4ea8575dfe30e26d",
+  "name": "Resist Pain (Moderate)",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/health.webp",
+  "system": {
+    "category": "health",
+    "subcategory": "",
+    "type": "mana",
+    "range": "limited",
+    "duration": "permanent",
+    "force": 1,
+    "drainCode": "(F / 2)S",
+    "target": "4",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Offsets the injury modifiers (TN and Initiative) of Moderate Physical damage (not Stun); it heals nothing. Duration: Permanent (10 turns). It lasts until the damage rises past Moderate or the wounds heal. No version exists for Deadly damage (the character is unconscious and must be healed). Grimoire (2nd ed.) p.129."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!4ea8575dfe30e26d"
+}

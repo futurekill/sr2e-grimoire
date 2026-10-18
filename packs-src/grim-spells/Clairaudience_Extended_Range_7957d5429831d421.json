@@ -1,0 +1,39 @@
+{
+  "_id": "7957d5429831d421",
+  "name": "Clairaudience (Extended Range)",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/clairaudience.webp",
+  "system": {
+    "category": "detection",
+    "subcategory": "",
+    "type": "mana",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) - 1)S",
+    "target": "4",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Clairaudience (SR2 p.153) with the Extended Range option. Range is printed \"Extended\": the successes on the separate Force Success Test used for limited range, multiplied by ten times the magician's Magic, in metres (Grimoire p.123). Grimoire (2nd ed.) p.128."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!7957d5429831d421"
+}

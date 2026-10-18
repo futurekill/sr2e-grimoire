@@ -1,6 +1,6 @@
 # Shadowrun 2E: The Grimoire
 
-A Foundry VTT V13 module bringing *The Grimoire, 2nd Edition* (FASA 7903) to the [Shadowrun 2nd Edition system](https://github.com/futurekill/sr2e-foundryvtt) (`sr2e`). The Grimoire's droppable content: six Druid totems, three new focus types, six physical adept powers, and the spells other modules' characters use.
+A Foundry VTT V13 module bringing *The Grimoire, 2nd Edition* (FASA 7903) to the [Shadowrun 2nd Edition system](https://github.com/futurekill/sr2e-foundryvtt) (`sr2e`). The Grimoire's droppable content: six Druid totems, three new focus types, six physical adept powers, and every new spell in the book.
 
 ## Contents
 
@@ -8,14 +8,14 @@ A Foundry VTT V13 module bringing *The Grimoire, 2nd Edition* (FASA 7903) to the
 |---|---|
 | Grimoire — Foci | 3 items |
 | Grimoire — Adept Powers | 6 items |
-| Grimoire — Spells | 8 spells |
+| Grimoire — Spells | 76 spells |
 
 ## Notes
 
 - **Totems** (Moon, Oak, Sea, Sun, Wildcat, Wyrm) are added to the system's shaman totem list when the module is enabled; there's no pack for them.
 - **Foci:** Fetish, Specific Spell and Spell Category, with the Grimoire bonding ratios.
 - **Adept powers:** Attribute Boost, Body Control, Enhanced Centering, Missile Parry, Mystic Armor, Suspended State.
-- **Spells:** Stun Bolt, Stunball, Wrecker, Detect Enemies (Extended Range), Influence, Blast Barrier, Bullet Barrier, Spell Barrier (book p.127–132): the ones the Corporate Security Handbook's magicians cast. The Grimoire prints many more; they can be added the same way.
+- **Spells:** all 76 new spells of the Spell Directory (book p.126–132): 20 combat, 6 detection, 18 health, 6 illusion and 26 manipulation, each read from a page render. Where the entry and the Table of Spells disagree, the spell's notes say which was used. The core-book spells the table also lists are in the system already.
 - The rest of the book is rules (initiation, metamagic, enchanting, magical groups) and isn't imported.
 
 ## Requirements

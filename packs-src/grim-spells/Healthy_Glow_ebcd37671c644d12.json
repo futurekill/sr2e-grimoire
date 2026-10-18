@@ -1,0 +1,39 @@
+{
+  "_id": "ebcd37671c644d12",
+  "name": "Healthy Glow",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/health.webp",
+  "system": {
+    "category": "health",
+    "subcategory": "",
+    "type": "physical",
+    "range": "touch",
+    "duration": "permanent",
+    "force": 1,
+    "drainCode": "(F / 2)L",
+    "target": "4",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Cosmetic: brightens eyes and hair, sloughs dead skin, improves circulation. Duration: Permanent (5 turns); it needs no sustaining but wears off in time with lifestyle, diet and vices. Grimoire (2nd ed.) p.129."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ebcd37671c644d12"
+}

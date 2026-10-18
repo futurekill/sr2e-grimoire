@@ -1,0 +1,39 @@
+{
+  "_id": "41afcc78f524e019",
+  "name": "Bind",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/manipulation.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)S",
+    "target": "Quickness (R)",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Holds the target in bands of mystic energy: the Spell Success Test is against the target's Quickness, and the target resists with Quickness against the spell's Force; net successes are the bands' Barrier Rating. To break free, compare Strength to that rating (SR2 p.98); a Strength Test against the Force adds 1 effective Strength per 2 successes, and breaking free costs a Body test against (Strength)L Stun. Grimoire (2nd ed.) p.131."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!41afcc78f524e019"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "9a8a5f3a2ebdf579",
+  "name": "Fashion",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/manipulation.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "physical",
+    "range": "los",
+    "duration": "permanent",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)M",
+    "target": "4",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": true,
+    "notes": "Instantly retailors a voluntary subject's clothing into any fashion; extra successes measure the style. It changes cut, colour and fit, never protection. Duration: Permanent (10 turns). Grimoire (2nd ed.) p.131."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!9a8a5f3a2ebdf579"
+}

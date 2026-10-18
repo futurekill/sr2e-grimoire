@@ -1,0 +1,39 @@
+{
+  "_id": "2bf93dda041ed4ff",
+  "name": "Stabilize (Grimoire)",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/stabilize.webp",
+  "system": {
+    "category": "health",
+    "subcategory": "",
+    "type": "physical",
+    "range": "los",
+    "duration": "permanent",
+    "force": 1,
+    "drainCode": "(F / 2)S",
+    "target": "4 + minutes elapsed",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "The Grimoire's revision of stabilize: keeps a character with Deadly Physical damage from dying. Add the minutes since the damage to the Spell Success Test's TN. Duration: Permanent (20 turns). (The core book's version, Mana, Touch, is the system's Stabilize; pick one per table.) Grimoire (2nd ed.) p.129."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!2bf93dda041ed4ff"
+}

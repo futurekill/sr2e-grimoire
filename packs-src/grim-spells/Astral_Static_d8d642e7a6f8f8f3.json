@@ -1,0 +1,39 @@
+{
+  "_id": "d8d642e7a6f8f8f3",
+  "name": "Astral Static",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/manipulation.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "mana",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 1)D",
+    "target": "6",
+    "damageCode": "",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "Area effect: crackling mana in astral space gives a background count of 1 per 2 successes. Like background count (p.89), it raises the TN of every Astral Success Test in the area, the caster's included. Grimoire (2nd ed.) p.131."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!d8d642e7a6f8f8f3"
+}

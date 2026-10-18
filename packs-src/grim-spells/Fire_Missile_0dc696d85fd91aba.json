@@ -1,0 +1,39 @@
+{
+  "_id": "0dc696d85fd91aba",
+  "name": "Fire Missile",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/fireball.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "((F / 2) + 1)S",
+    "target": "Body (R)",
+    "damageCode": "M",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Magical energy doing Physical damage to one target, with the elemental effect of fire (p.112; by hand). Grimoire (2nd ed.) p.126."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!0dc696d85fd91aba"
+}

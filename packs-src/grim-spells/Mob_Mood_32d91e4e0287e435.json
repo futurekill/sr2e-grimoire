@@ -1,0 +1,39 @@
+{
+  "_id": "32d91e4e0287e435",
+  "name": "Mob Mood",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/control-emotion.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "control",
+    "type": "mana",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)M",
+    "target": "Willpower (R)",
+    "damageCode": "",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "Like mob mind, but only shifts a crowd's mood; it gives no control of the crowd. Grimoire (2nd ed.) p.130."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!32d91e4e0287e435"
+}

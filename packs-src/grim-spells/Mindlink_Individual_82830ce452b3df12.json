@@ -1,0 +1,39 @@
+{
+  "_id": "82830ce452b3df12",
+  "name": "Mindlink (Individual)",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/detection.webp",
+  "system": {
+    "category": "detection",
+    "subcategory": "",
+    "type": "mana",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)M",
+    "target": "4",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": true,
+    "notes": "A hypersense that lets the magician talk mind to mind (words, emotions, images) with one person chosen when the spell was designed (Restricted Target: that individual). The subject must be in line of sight and range when it's cast, then may leave line of sight but must stay in range. One success at TN 4 makes the link; an unwilling subject resists with Willpower against the spell's Force, reducing the caster's successes. A failed link means recasting, with Drain. Grimoire (2nd ed.) p.128."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!82830ce452b3df12"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "ad60bdf1205f3225",
+  "name": "Prophylaxis (L Pathogen)",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/health.webp",
+  "system": {
+    "category": "health",
+    "subcategory": "",
+    "type": "physical",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)L",
+    "target": "4",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": true,
+    "notes": "On a voluntary subject: +1 Body die per 2 successes to resist infection, drugs or toxins of Light level. The subject also resists beneficial medicines. Grimoire (2nd ed.) p.129."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!ad60bdf1205f3225"
+}

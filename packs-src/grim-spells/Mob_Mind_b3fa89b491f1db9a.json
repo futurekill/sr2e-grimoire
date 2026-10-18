@@ -1,0 +1,39 @@
+{
+  "_id": "b3fa89b491f1db9a",
+  "name": "Mob Mind",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/control-thoughts.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "control",
+    "type": "mana",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 3)S",
+    "target": "Willpower (R)",
+    "damageCode": "",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "Area effect: controls the thoughts of everyone in range. One Success Test treats the crowd as a single character (pedestrians are Willpower 3); major characters resist individually against the caster's successes. Grimoire (2nd ed.) p.130."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!b3fa89b491f1db9a"
+}

@@ -1,0 +1,39 @@
+{
+  "_id": "8b58fad294c9b405",
+  "name": "Analyze Magic",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/analyze-device.webp",
+  "system": {
+    "category": "detection",
+    "subcategory": "",
+    "type": "mana",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "(F / 2)M",
+    "target": "Force/Rating",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Analyzes a magic item as if assensing it: the Spell Success Test is against the Force or Rating of the spell, focus or other phenomenon; read the result off the Astral Examination table (SR2 p.146). Grimoire (2nd ed.) p.128."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!8b58fad294c9b405"
+}

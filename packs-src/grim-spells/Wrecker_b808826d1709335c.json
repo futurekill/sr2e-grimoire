@@ -9,13 +9,13 @@
     "type": "physical",
     "range": "los",
     "duration": "instant",
+    "force": 1,
     "drainCode": "(F / 2)S",
     "target": "Special: Object Resistance Table",
     "damageCode": "S",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Works like the ram spell (SR2 p.151), but affects only a single vehicle (Restricted Target: Vehicles). Grimoire (2nd ed.) p.127.",
-    "force": 1
+    "notes": "Like the ram spell (SR2 p.151), but affects only a single vehicle (Restricted Target: vehicles). Grimoire (2nd ed.) p.127."
   },
   "effects": [],
   "flags": {},
@@ -24,7 +24,7 @@
   "_stats": {
     "coreVersion": "13.351",
     "systemId": "sr2e",
-    "systemVersion": "0.104.5",
+    "systemVersion": "0.105.0",
     "createdTime": 1792000000000,
     "modifiedTime": 1792000000000,
     "lastModifiedBy": null,

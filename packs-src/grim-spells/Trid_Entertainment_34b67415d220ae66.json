@@ -1,0 +1,39 @@
+{
+  "_id": "34b67415d220ae66",
+  "name": "Trid Entertainment",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/entertainment.webp",
+  "system": {
+    "category": "illusion",
+    "subcategory": "",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)L",
+    "target": "4",
+    "damageCode": "",
+    "isAreaEffect": true,
+    "isVoluntary": true,
+    "notes": "Like the entertainment spell (SR2 p.156), but electronic cameras can \"see\" it. Grimoire (2nd ed.) p.130."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!34b67415d220ae66"
+}

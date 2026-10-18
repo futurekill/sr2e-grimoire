@@ -1,0 +1,39 @@
+{
+  "_id": "bdd88e699eabc607",
+  "name": "Physical Mask",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/mask.webp",
+  "system": {
+    "category": "illusion",
+    "subcategory": "",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 1)L",
+    "target": "4",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": true,
+    "notes": "Like the mask spell (SR2 p.156), but works against technological devices. Grimoire (2nd ed.) p.130."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!bdd88e699eabc607"
+}

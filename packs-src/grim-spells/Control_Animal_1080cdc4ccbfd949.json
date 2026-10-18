@@ -1,0 +1,39 @@
+{
+  "_id": "1080cdc4ccbfd949",
+  "name": "Control Animal",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/control-actions.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "control",
+    "type": "mana",
+    "range": "los",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)D",
+    "target": "Willpower (R)",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "Like control thoughts (SR2 p.157), but only on non-sentient animals (the GM decides sentience). Paranormal animals resist with Willpower or Essence, whichever is higher. Grimoire (2nd ed.) p.130."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!1080cdc4ccbfd949"
+}

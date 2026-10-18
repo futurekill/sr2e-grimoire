@@ -1,0 +1,39 @@
+{
+  "_id": "7994f8903a15421f",
+  "name": "(Critter) Form",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/manipulation.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "physical",
+    "range": "limited",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 2)M",
+    "target": "Willpower",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": true,
+    "notes": "Like shapechange, but into one specific non-paranormal animal; needs a voluntary subject. Rename the item for the animal (Wolf Form…). Grimoire (2nd ed.) p.131."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!7994f8903a15421f"
+}

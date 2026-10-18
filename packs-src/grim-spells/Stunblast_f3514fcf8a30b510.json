@@ -1,0 +1,39 @@
+{
+  "_id": "f3514fcf8a30b510",
+  "name": "Stunblast",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/manaball.webp",
+  "system": {
+    "category": "combat",
+    "subcategory": "",
+    "type": "mana",
+    "range": "los",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "((F / 2) + 1)D",
+    "target": "Willpower (R)",
+    "damageCode": "S",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "An area-effect spell doing Stun damage with the elemental effect of blast (p.112; by hand). Grimoire (2nd ed.) p.127."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!f3514fcf8a30b510"
+}

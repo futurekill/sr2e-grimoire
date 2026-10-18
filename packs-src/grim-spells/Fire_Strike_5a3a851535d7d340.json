@@ -1,0 +1,39 @@
+{
+  "_id": "5a3a851535d7d340",
+  "name": "Fire Strike",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/flame-bomb.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "((F / 2) + 3)D",
+    "target": "Body (R)",
+    "damageCode": "(F)S",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "Area effect: blasts flame into an area, with the elemental effect of fire (p.112; the fire effect by hand). Grimoire (2nd ed.) p.132."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!5a3a851535d7d340"
+}

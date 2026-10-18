@@ -1,0 +1,39 @@
+{
+  "_id": "e97dfa7fa707596f",
+  "name": "Acid Bomb",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/flame-bomb.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "transformation",
+    "type": "physical",
+    "range": "los",
+    "duration": "instant",
+    "force": 1,
+    "drainCode": "((F / 2) + 1)D",
+    "target": "Body (R)",
+    "damageCode": "(F)M",
+    "isAreaEffect": true,
+    "isVoluntary": false,
+    "notes": "Area effect: a spray of acid over the area, with the elemental effect rules (p.112; by hand). Grimoire (2nd ed.) p.131."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!e97dfa7fa707596f"
+}

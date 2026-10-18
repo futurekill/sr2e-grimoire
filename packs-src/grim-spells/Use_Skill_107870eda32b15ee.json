@@ -1,0 +1,39 @@
+{
+  "_id": "107870eda32b15ee",
+  "name": "Use (Skill)",
+  "type": "spell",
+  "img": "systems/sr2e/assets/item_icons/spells/magic-fingers.webp",
+  "system": {
+    "category": "manipulation",
+    "subcategory": "telekinetic",
+    "type": "physical",
+    "range": "los",
+    "duration": "sustained",
+    "force": 1,
+    "drainCode": "((F / 2) + 3)L",
+    "target": "6",
+    "damageCode": "",
+    "isAreaEffect": false,
+    "isVoluntary": false,
+    "notes": "A limited magic fingers (SR2 p.157): use one skill telekinetically, with the caster's own Skill Rating deciding the effect. The GM decides which skills work (Armed Combat, B/R Electronics, Demolitions, Driving…); Knowledge skills don't. Rename the item for the skill. Grimoire (2nd ed.) p.131."
+  },
+  "effects": [],
+  "flags": {},
+  "folder": null,
+  "sort": 0,
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.105.0",
+    "createdTime": 1792000000000,
+    "modifiedTime": 1792000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!items!107870eda32b15ee"
+}
