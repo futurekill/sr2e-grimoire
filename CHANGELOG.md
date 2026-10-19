@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.4.0 — 2026-10-19
 
 ### Added
 - **The rest of the Grimoire's spells:** 68 more, so the pack holds all 76 new spells of
