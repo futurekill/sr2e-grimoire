@@ -16,7 +16,7 @@ conflicts the user ruled on are documented at its top); the CSH generator copies
 ones its magicians use. Extended Range has no system range value:
 use `limited` and put the rule (p.123) in the notes. The advanced-magic *mechanics*
 (initiation/metamagic/anchoring/…) are system features, intentionally out of
-scope here. See `docs/PLAN.md`.
+scope here. See `docs/archive/plans/PLAN.md`.
 
 ## Source material — SCANNED, no text layer
 Render pages and read them (`pdftoppm -r 150 -png`); tesseract returns garbage on
