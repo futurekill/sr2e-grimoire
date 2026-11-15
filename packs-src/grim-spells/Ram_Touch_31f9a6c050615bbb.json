@@ -15,7 +15,11 @@
     "damageCode": "S",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Damages inanimate objects like the ram spell (SR2 p.151), but the magician must touch the target. Grimoire (2nd ed.) p.127."
+    "notes": "Damages inanimate objects like the ram spell (SR2 p.151), but the magician must touch the target. Grimoire (2nd ed.) p.127.",
+    "citation": {
+      "book": "grim",
+      "page": "127"
+    }
   },
   "effects": [],
   "flags": {},

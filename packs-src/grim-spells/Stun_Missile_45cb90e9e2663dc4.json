@@ -15,7 +15,11 @@
     "damageCode": "M",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "A missile of magical energy that does Stun damage to a single target. Grimoire (2nd ed.) p.127."
+    "notes": "A missile of magical energy that does Stun damage to a single target. Grimoire (2nd ed.) p.127.",
+    "citation": {
+      "book": "grim",
+      "page": "127"
+    }
   },
   "effects": [],
   "flags": {},

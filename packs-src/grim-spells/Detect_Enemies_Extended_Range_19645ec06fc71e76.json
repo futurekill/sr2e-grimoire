@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": true,
     "isVoluntary": true,
-    "notes": "Detect enemies (SR2 p.153) with the Extended Range option. Range is printed \"Extended\": the successes on the separate Force Success Test used for limited range, multiplied by ten times the magician's Magic, in metres (Grimoire p.123). Grimoire (2nd ed.) p.128."
+    "notes": "Detect enemies (SR2 p.153) with the Extended Range option. Range is printed \"Extended\": the successes on the separate Force Success Test used for limited range, multiplied by ten times the magician's Magic, in metres (Grimoire p.123). Grimoire (2nd ed.) p.128.",
+    "citation": {
+      "book": "grim",
+      "page": "128"
+    }
   },
   "effects": [],
   "flags": {},

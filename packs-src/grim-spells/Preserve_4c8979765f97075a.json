@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Keeps dead organic matter from drying out, decaying or rotting. One success casts it. Used on food, and by forensic magicians on cadavers and on samples kept as ritual material links (p.35; SR2 p.135); often put in a spell lock. Grimoire (2nd ed.) p.129."
+    "notes": "Keeps dead organic matter from drying out, decaying or rotting. One success casts it. Used on food, and by forensic magicians on cadavers and on samples kept as ritual material links (p.35; SR2 p.135); often put in a spell lock. Grimoire (2nd ed.) p.129.",
+    "citation": {
+      "book": "grim",
+      "page": "129"
+    }
   },
   "effects": [],
   "flags": {},

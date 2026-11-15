@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Like control thoughts (SR2 p.157), but only on non-sentient animals (the GM decides sentience). Paranormal animals resist with Willpower or Essence, whichever is higher. Grimoire (2nd ed.) p.130."
+    "notes": "Like control thoughts (SR2 p.157), but only on non-sentient animals (the GM decides sentience). Paranormal animals resist with Willpower or Essence, whichever is higher. Grimoire (2nd ed.) p.130.",
+    "citation": {
+      "book": "grim",
+      "page": "130"
+    }
   },
   "effects": [],
   "flags": {},

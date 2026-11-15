@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": true,
     "isVoluntary": true,
-    "notes": "A multi-sensory version of the entertainment spell (SR2 p.156). Grimoire (2nd ed.) p.130."
+    "notes": "A multi-sensory version of the entertainment spell (SR2 p.156). Grimoire (2nd ed.) p.130.",
+    "citation": {
+      "book": "grim",
+      "page": "130"
+    }
   },
   "effects": [],
   "flags": {},

@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": true,
     "isVoluntary": true,
-    "notes": "An area-effect general hypersense on a voluntary subject: within limited range, detects active magic (foci; sustained, quickened or anchored spells; spirits). It doesn't detect magically active characters. Grimoire (2nd ed.) p.128."
+    "notes": "An area-effect general hypersense on a voluntary subject: within limited range, detects active magic (foci; sustained, quickened or anchored spells; spirits). It doesn't detect magically active characters. Grimoire (2nd ed.) p.128.",
+    "citation": {
+      "book": "grim",
+      "page": "128"
+    }
   },
   "effects": [],
   "flags": {},

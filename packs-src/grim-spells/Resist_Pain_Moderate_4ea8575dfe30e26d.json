@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Offsets the injury modifiers (TN and Initiative) of Moderate Physical damage (not Stun); it heals nothing. Duration: Permanent (10 turns). It lasts until the damage rises past Moderate or the wounds heal. No version exists for Deadly damage (the character is unconscious and must be healed). Grimoire (2nd ed.) p.129."
+    "notes": "Offsets the injury modifiers (TN and Initiative) of Moderate Physical damage (not Stun); it heals nothing. Duration: Permanent (10 turns). It lasts until the damage rises past Moderate or the wounds heal. No version exists for Deadly damage (the character is unconscious and must be healed). Grimoire (2nd ed.) p.129.",
+    "citation": {
+      "book": "grim",
+      "page": "129"
+    }
   },
   "effects": [],
   "flags": {},

@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Makes an inanimate object move as its shape allows (balls roll, rugs crawl, statues walk). Only the whole object moves, at metres per action equal to half the caster's Magic (round down). Grimoire (2nd ed.) p.130."
+    "notes": "Makes an inanimate object move as its shape allows (balls roll, rugs crawl, statues walk). Only the whole object moves, at metres per action equal to half the caster's Magic (round down). Grimoire (2nd ed.) p.130.",
+    "citation": {
+      "book": "grim",
+      "page": "130"
+    }
   },
   "effects": [],
   "flags": {},

@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": true,
     "isVoluntary": true,
-    "notes": "Like the entertainment spell (SR2 p.156), but electronic cameras can \"see\" it. Grimoire (2nd ed.) p.130."
+    "notes": "Like the entertainment spell (SR2 p.156), but electronic cameras can \"see\" it. Grimoire (2nd ed.) p.130.",
+    "citation": {
+      "book": "grim",
+      "page": "130"
+    }
   },
   "effects": [],
   "flags": {},

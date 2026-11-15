@@ -15,7 +15,11 @@
     "damageCode": "(F)M",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Strikes the target with a spray of acid, with the elemental effect rules (p.112; the acid effect by hand). Grimoire (2nd ed.) p.131."
+    "notes": "Strikes the target with a spray of acid, with the elemental effect rules (p.112; the acid effect by hand). Grimoire (2nd ed.) p.131.",
+    "citation": {
+      "book": "grim",
+      "page": "131"
+    }
   },
   "effects": [],
   "flags": {},

@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": true,
-    "notes": "On a voluntary subject: +1 Body die per 2 successes to resist infection, drugs or toxins of Moderate level. The subject also resists beneficial medicines. Grimoire (2nd ed.) p.129."
+    "notes": "On a voluntary subject: +1 Body die per 2 successes to resist infection, drugs or toxins of Moderate level. The subject also resists beneficial medicines. Grimoire (2nd ed.) p.129.",
+    "citation": {
+      "book": "grim",
+      "page": "129"
+    }
   },
   "effects": [],
   "flags": {},

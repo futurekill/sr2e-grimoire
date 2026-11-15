@@ -15,7 +15,11 @@
     "damageCode": "M",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "An area-effect cloud of magical energy that does Stun damage. Grimoire (2nd ed.) p.127."
+    "notes": "An area-effect cloud of magical energy that does Stun damage. Grimoire (2nd ed.) p.127.",
+    "citation": {
+      "book": "grim",
+      "page": "127"
+    }
   },
   "effects": [],
   "flags": {},

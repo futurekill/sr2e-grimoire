@@ -15,7 +15,11 @@
     "damageCode": "(F)M Stun",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "An explosion of air that does Stun damage and deafens the target 1 Combat Turn per 2 successes. Stun isn't automated for manipulation spells, so the GM resolves the damage. Grimoire (2nd ed.) p.132."
+    "notes": "An explosion of air that does Stun damage and deafens the target 1 Combat Turn per 2 successes. Stun isn't automated for manipulation spells, so the GM resolves the damage. Grimoire (2nd ed.) p.132.",
+    "citation": {
+      "book": "grim",
+      "page": "132"
+    }
   },
   "effects": [],
   "flags": {},

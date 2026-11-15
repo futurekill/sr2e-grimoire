@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": true,
-    "notes": "Turns a voluntary subject into a normal critter that keeps human consciousness. Physical attributes from the Critter Statistics Table (SR2 p.233), +1 to the base ratings per 2 successes; Reaction rises by the subject's Intelligence; mental attributes stay. Clothing and gear don't change. A magician can still cast, but not fulfil geasa or use centering that needs actions the animal can't do (speech). Grimoire (2nd ed.) p.132."
+    "notes": "Turns a voluntary subject into a normal critter that keeps human consciousness. Physical attributes from the Critter Statistics Table (SR2 p.233), +1 to the base ratings per 2 successes; Reaction rises by the subject's Intelligence; mental attributes stay. Clothing and gear don't change. A magician can still cast, but not fulfil geasa or use centering that needs actions the animal can't do (speech). Grimoire (2nd ed.) p.132.",
+    "citation": {
+      "book": "grim",
+      "page": "132"
+    }
   },
   "effects": [],
   "flags": {},

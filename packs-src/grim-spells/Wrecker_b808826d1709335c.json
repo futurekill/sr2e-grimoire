@@ -15,7 +15,11 @@
     "damageCode": "S",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Like the ram spell (SR2 p.151), but affects only a single vehicle (Restricted Target: vehicles). Grimoire (2nd ed.) p.127."
+    "notes": "Like the ram spell (SR2 p.151), but affects only a single vehicle (Restricted Target: vehicles). Grimoire (2nd ed.) p.127.",
+    "citation": {
+      "book": "grim",
+      "page": "127"
+    }
   },
   "effects": [],
   "flags": {},

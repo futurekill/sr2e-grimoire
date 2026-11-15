@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "Area effect: crackling mana in astral space gives a background count of 1 per 2 successes. Like background count (p.89), it raises the TN of every Astral Success Test in the area, the caster's included. Grimoire (2nd ed.) p.131."
+    "notes": "Area effect: crackling mana in astral space gives a background count of 1 per 2 successes. Like background count (p.89), it raises the TN of every Astral Success Test in the area, the caster's included. Grimoire (2nd ed.) p.131.",
+    "citation": {
+      "book": "grim",
+      "page": "131"
+    }
   },
   "effects": [],
   "flags": {},

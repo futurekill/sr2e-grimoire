@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Like lock, reinforcing a locked doorway: +1 to the door's Barrier Rating per 2 successes. Grimoire (2nd ed.) p.132."
+    "notes": "Like lock, reinforcing a locked doorway: +1 to the door's Barrier Rating per 2 successes. Grimoire (2nd ed.) p.132.",
+    "citation": {
+      "book": "grim",
+      "page": "132"
+    }
   },
   "effects": [],
   "flags": {},

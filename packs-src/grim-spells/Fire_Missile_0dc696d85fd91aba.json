@@ -15,7 +15,11 @@
     "damageCode": "M",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Magical energy doing Physical damage to one target, with the elemental effect of fire (p.112; by hand). Grimoire (2nd ed.) p.126."
+    "notes": "Magical energy doing Physical damage to one target, with the elemental effect of fire (p.112; by hand). Grimoire (2nd ed.) p.126.",
+    "citation": {
+      "book": "grim",
+      "page": "126"
+    }
   },
   "effects": [],
   "flags": {},

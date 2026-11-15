@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "Like mana barrier (SR2 p.158), but protects against spells. The personal form drains ((F / 2) + 2)L. Drain from the Table of Spells (p.134), ((F / 2) + 1)M; the entry prints ((F / 2) + 2)M, but the anti-spell barrier is designed to drain less (p.125). Grimoire (2nd ed.) p.132."
+    "notes": "Like mana barrier (SR2 p.158), but protects against spells. The personal form drains ((F / 2) + 2)L. Drain from the Table of Spells (p.134), ((F / 2) + 1)M; the entry prints ((F / 2) + 2)M, but the anti-spell barrier is designed to drain less (p.125). Grimoire (2nd ed.) p.132.",
+    "citation": {
+      "book": "grim",
+      "page": "132"
+    }
   },
   "effects": [],
   "flags": {},

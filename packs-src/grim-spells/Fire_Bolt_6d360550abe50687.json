@@ -15,7 +15,11 @@
     "damageCode": "S",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "A bolt of energy that does Physical damage to one target, with the elemental effect of fire (Grimoire p.112; resolve the fire effect by hand). Grimoire (2nd ed.) p.126."
+    "notes": "A bolt of energy that does Physical damage to one target, with the elemental effect of fire (Grimoire p.112; resolve the fire effect by hand). Grimoire (2nd ed.) p.126.",
+    "citation": {
+      "book": "grim",
+      "page": "126"
+    }
   },
   "effects": [],
   "flags": {},

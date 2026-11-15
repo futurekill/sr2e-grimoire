@@ -15,7 +15,11 @@
     "damageCode": "S",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "A bolt of magical energy that does Stun damage to a single target. Drain from the entry, (F / 2) - 1, Serious; the Table of Spells (p.133) prints Deadly. Grimoire (2nd ed.) p.127."
+    "notes": "A bolt of magical energy that does Stun damage to a single target. Drain from the entry, (F / 2) - 1, Serious; the Table of Spells (p.133) prints Deadly. Grimoire (2nd ed.) p.127.",
+    "citation": {
+      "book": "grim",
+      "page": "127"
+    }
   },
   "effects": [],
   "flags": {},

@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": true,
     "isVoluntary": true,
-    "notes": "Spectacle that electronic cameras can \"see\". Grimoire (2nd ed.) p.130."
+    "notes": "Spectacle that electronic cameras can \"see\". Grimoire (2nd ed.) p.130.",
+    "citation": {
+      "book": "grim",
+      "page": "130"
+    }
   },
   "effects": [],
   "flags": {},

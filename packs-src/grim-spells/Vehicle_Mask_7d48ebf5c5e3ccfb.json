@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Physical mask for vehicles. Only a vehicle with Body at most half the magician's Magic (round down), and the caster must touch it. Grimoire (2nd ed.) p.130."
+    "notes": "Physical mask for vehicles. Only a vehicle with Body at most half the magician's Magic (round down), and the caster must touch it. Grimoire (2nd ed.) p.130.",
+    "citation": {
+      "book": "grim",
+      "page": "130"
+    }
   },
   "effects": [],
   "flags": {},

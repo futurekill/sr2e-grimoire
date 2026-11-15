@@ -15,7 +15,11 @@
     "damageCode": "(F)S",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Strikes the target with a burst of flame, with the elemental effect of fire (p.112; by hand). Grimoire (2nd ed.) p.132."
+    "notes": "Strikes the target with a burst of flame, with the elemental effect of fire (p.112; by hand). Grimoire (2nd ed.) p.132.",
+    "citation": {
+      "book": "grim",
+      "page": "132"
+    }
   },
   "effects": [],
   "flags": {},

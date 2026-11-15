@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": true,
-    "notes": "Like shapechange, but into one specific non-paranormal animal; needs a voluntary subject. Rename the item for the animal (Wolf Form…). Grimoire (2nd ed.) p.131."
+    "notes": "Like shapechange, but into one specific non-paranormal animal; needs a voluntary subject. Rename the item for the animal (Wolf Form…). Grimoire (2nd ed.) p.131.",
+    "citation": {
+      "book": "grim",
+      "page": "131"
+    }
   },
   "effects": [],
   "flags": {},

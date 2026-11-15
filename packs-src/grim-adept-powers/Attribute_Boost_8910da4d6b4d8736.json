@@ -14,7 +14,11 @@
       "strength": 0,
       "reaction": 0
     },
-    "notes": "Cost 0.5 per Level. Drain by the boost reached (Attribute Boost Drain Table): ≤½ racial max = L, up to racial max = M, up to 1.5× = S, beyond = D; resisted like normal Drain (Willpower), every 2 successes reduces level, excess is Stun. Grimoire p.34."
+    "notes": "Cost 0.5 per Level. Drain by the boost reached (Attribute Boost Drain Table): ≤½ racial max = L, up to racial max = M, up to 1.5× = S, beyond = D; resisted like normal Drain (Willpower), every 2 successes reduces level, excess is Stun. Grimoire p.34.",
+    "citation": {
+      "book": "grim",
+      "page": "34"
+    }
   },
   "effects": [],
   "flags": {},

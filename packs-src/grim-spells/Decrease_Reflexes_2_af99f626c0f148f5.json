@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "The reverse of increase reflexes (SR2 p.155): the target loses 2 Initiative dice. No effect on characters with cybernetic Initiative enhancements; anyone left with no (or negative) Initiative dice uses Reaction as Initiative. Grimoire (2nd ed.) p.129."
+    "notes": "The reverse of increase reflexes (SR2 p.155): the target loses 2 Initiative dice. No effect on characters with cybernetic Initiative enhancements; anyone left with no (or negative) Initiative dice uses Reaction as Initiative. Grimoire (2nd ed.) p.129.",
+    "citation": {
+      "book": "grim",
+      "page": "129"
+    }
   },
   "effects": [],
   "flags": {},

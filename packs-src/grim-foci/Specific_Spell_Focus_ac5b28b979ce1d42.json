@@ -12,7 +12,11 @@
     "expendable": false,
     "costPerForce": 0,
     "cost": 0,
-    "notes": "Bonded to one specific named spell (cheaper and narrower than a category focus). Bonding Karma = 1 × Force. Grimoire p.24, 27."
+    "notes": "Bonded to one specific named spell (cheaper and narrower than a category focus). Bonding Karma = 1 × Force. Grimoire p.24, 27.",
+    "citation": {
+      "book": "grim",
+      "page": "24"
+    }
   },
   "effects": [],
   "flags": {},

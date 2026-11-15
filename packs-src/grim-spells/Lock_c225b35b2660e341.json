@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Holds a door, portal or other closure magically shut while sustained; it has the door's own strength, so opening it means breaking or blasting through. Grimoire (2nd ed.) p.132."
+    "notes": "Holds a door, portal or other closure magically shut while sustained; it has the door's own strength, so opening it means breaking or blasting through. Grimoire (2nd ed.) p.132.",
+    "citation": {
+      "book": "grim",
+      "page": "132"
+    }
   },
   "effects": [],
   "flags": {},

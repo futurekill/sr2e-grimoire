@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "Like physical barrier (SR2 p.158), but protects against bladed weapons. Barrier Rating equals the Force; Impact armour may be added. The personal form drains ((F / 2) + 2)L. Grimoire (2nd ed.) p.131."
+    "notes": "Like physical barrier (SR2 p.158), but protects against bladed weapons. Barrier Rating equals the Force; Impact armour may be added. The personal form drains ((F / 2) + 2)L. Grimoire (2nd ed.) p.131.",
+    "citation": {
+      "book": "grim",
+      "page": "131"
+    }
   },
   "effects": [],
   "flags": {},

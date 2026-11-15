@@ -15,7 +15,11 @@
     "damageCode": "(Willpower)M Stun",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "A telekinetic punch: damage (caster's Willpower)M Stun, with the normal Ranged Combat modifiers (SR2 p.87); casting successes increase the damage as in ranged combat, and Impact armour protects. Not a Force code, so the system leaves the damage to the GM. Grimoire (2nd ed.) p.131."
+    "notes": "A telekinetic punch: damage (caster's Willpower)M Stun, with the normal Ranged Combat modifiers (SR2 p.87); casting successes increase the damage as in ranged combat, and Impact armour protects. Not a Force code, so the system leaves the damage to the GM. Grimoire (2nd ed.) p.131.",
+    "citation": {
+      "book": "grim",
+      "page": "131"
+    }
   },
   "effects": [],
   "flags": {},

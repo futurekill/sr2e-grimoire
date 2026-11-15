@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "While it lasts, the subject takes the penalties of as many Stun boxes as the caster has successes (no real damage). At 10 or more successes the victim is conscious but can't act. Type printed \"Maria\", a typo for Mana. Grimoire (2nd ed.) p.130."
+    "notes": "While it lasts, the subject takes the penalties of as many Stun boxes as the caster has successes (no real damage). At 10 or more successes the victim is conscious but can't act. Type printed \"Maria\", a typo for Mana. Grimoire (2nd ed.) p.130.",
+    "citation": {
+      "book": "grim",
+      "page": "130"
+    }
   },
   "effects": [],
   "flags": {},

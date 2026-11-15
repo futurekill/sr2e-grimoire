@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "The Grimoire's revision of stabilize: keeps a character with Deadly Physical damage from dying. Add the minutes since the damage to the Spell Success Test's TN. Duration: Permanent (20 turns). (The core book's version, Mana, Touch, is the system's Stabilize; pick one per table.) Grimoire (2nd ed.) p.129."
+    "notes": "The Grimoire's revision of stabilize: keeps a character with Deadly Physical damage from dying. Add the minutes since the damage to the Spell Success Test's TN. Duration: Permanent (20 turns). (The core book's version, Mana, Touch, is the system's Stabilize; pick one per table.) Grimoire (2nd ed.) p.129.",
+    "citation": {
+      "book": "grim",
+      "page": "129"
+    }
   },
   "effects": [],
   "flags": {},

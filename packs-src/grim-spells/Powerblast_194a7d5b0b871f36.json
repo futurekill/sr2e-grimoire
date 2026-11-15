@@ -15,7 +15,11 @@
     "damageCode": "M",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "A powerful area-effect blast doing Physical damage, with the elemental effect of blast (p.112; by hand). Grimoire (2nd ed.) p.127."
+    "notes": "A powerful area-effect blast doing Physical damage, with the elemental effect of blast (p.112; by hand). Grimoire (2nd ed.) p.127.",
+    "citation": {
+      "book": "grim",
+      "page": "127"
+    }
   },
   "effects": [],
   "flags": {},

@@ -15,7 +15,11 @@
     "damageCode": "(F)S",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "Area effect: blasts flame into an area, with the elemental effect of fire (p.112; the fire effect by hand). Grimoire (2nd ed.) p.132."
+    "notes": "Area effect: blasts flame into an area, with the elemental effect of fire (p.112; the fire effect by hand). Grimoire (2nd ed.) p.132.",
+    "citation": {
+      "book": "grim",
+      "page": "132"
+    }
   },
   "effects": [],
   "flags": {},

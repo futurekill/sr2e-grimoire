@@ -15,7 +15,11 @@
     "damageCode": "M",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "An area-effect cloud of magical energy doing Physical damage, with the elemental effect of fire (p.112; by hand). Grimoire (2nd ed.) p.126."
+    "notes": "An area-effect cloud of magical energy doing Physical damage, with the elemental effect of fire (p.112; by hand). Grimoire (2nd ed.) p.126.",
+    "citation": {
+      "book": "grim",
+      "page": "126"
+    }
   },
   "effects": [],
   "flags": {},

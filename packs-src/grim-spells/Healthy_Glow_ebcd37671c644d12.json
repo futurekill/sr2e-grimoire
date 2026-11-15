@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Cosmetic: brightens eyes and hair, sloughs dead skin, improves circulation. Duration: Permanent (5 turns); it needs no sustaining but wears off in time with lifestyle, diet and vices. Grimoire (2nd ed.) p.129."
+    "notes": "Cosmetic: brightens eyes and hair, sloughs dead skin, improves circulation. Duration: Permanent (5 turns); it needs no sustaining but wears off in time with lifestyle, diet and vices. Grimoire (2nd ed.) p.129.",
+    "citation": {
+      "book": "grim",
+      "page": "129"
+    }
   },
   "effects": [],
   "flags": {},

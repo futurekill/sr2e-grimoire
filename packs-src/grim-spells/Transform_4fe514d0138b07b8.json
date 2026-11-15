@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Turns the subject into a normal critter with only animal intelligence and no awareness of its former self. Clothing and gear don't change. Grimoire (2nd ed.) p.132."
+    "notes": "Turns the subject into a normal critter with only animal intelligence and no awareness of its former self. Clothing and gear don't change. Grimoire (2nd ed.) p.132.",
+    "citation": {
+      "book": "grim",
+      "page": "132"
+    }
   },
   "effects": [],
   "flags": {},

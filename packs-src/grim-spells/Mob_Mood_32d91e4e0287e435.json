@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "Like mob mind, but only shifts a crowd's mood; it gives no control of the crowd. Grimoire (2nd ed.) p.130."
+    "notes": "Like mob mind, but only shifts a crowd's mood; it gives no control of the crowd. Grimoire (2nd ed.) p.130.",
+    "citation": {
+      "book": "grim",
+      "page": "130"
+    }
   },
   "effects": [],
   "flags": {},

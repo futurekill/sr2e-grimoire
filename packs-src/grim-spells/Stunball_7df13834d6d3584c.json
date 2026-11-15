@@ -15,7 +15,11 @@
     "damageCode": "S",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "An area-effect spell that does Stun damage. (The entry's \"to a single target\" is a slip: its name and its first words make it area-effect.) Type printed \"Maria\", a typo for Mana. Grimoire (2nd ed.) p.127."
+    "notes": "An area-effect spell that does Stun damage. (The entry's \"to a single target\" is a slip: its name and its first words make it area-effect.) Type printed \"Maria\", a typo for Mana. Grimoire (2nd ed.) p.127.",
+    "citation": {
+      "book": "grim",
+      "page": "127"
+    }
   },
   "effects": [],
   "flags": {},

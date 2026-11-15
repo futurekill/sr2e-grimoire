@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": true,
-    "notes": "Like the mask spell (SR2 p.156), but works against technological devices. Grimoire (2nd ed.) p.130."
+    "notes": "Like the mask spell (SR2 p.156), but works against technological devices. Grimoire (2nd ed.) p.130.",
+    "citation": {
+      "book": "grim",
+      "page": "130"
+    }
   },
   "effects": [],
   "flags": {},

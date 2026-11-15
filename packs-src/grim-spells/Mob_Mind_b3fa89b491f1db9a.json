@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "Area effect: controls the thoughts of everyone in range. One Success Test treats the crowd as a single character (pedestrians are Willpower 3); major characters resist individually against the caster's successes. Grimoire (2nd ed.) p.130."
+    "notes": "Area effect: controls the thoughts of everyone in range. One Success Test treats the crowd as a single character (pedestrians are Willpower 3); major characters resist individually against the caster's successes. Grimoire (2nd ed.) p.130.",
+    "citation": {
+      "book": "grim",
+      "page": "130"
+    }
   },
   "effects": [],
   "flags": {},

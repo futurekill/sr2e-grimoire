@@ -15,7 +15,11 @@
     "damageCode": "D",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "Area effect: kills small life forms (bacteria, microorganisms) and destroys loose biomaterial (skin flakes, stray hair, spilled blood), so it can't serve as a ritual material link (p.35; SR2 p.135). It doesn't touch biomaterial attached to a living being, nor bioweapons. One success is enough. Grimoire (2nd ed.) p.127."
+    "notes": "Area effect: kills small life forms (bacteria, microorganisms) and destroys loose biomaterial (skin flakes, stray hair, spilled blood), so it can't serve as a ritual material link (p.35; SR2 p.135). It doesn't touch biomaterial attached to a living being, nor bioweapons. One success is enough. Grimoire (2nd ed.) p.127.",
+    "citation": {
+      "book": "grim",
+      "page": "127"
+    }
   },
   "effects": [],
   "flags": {},

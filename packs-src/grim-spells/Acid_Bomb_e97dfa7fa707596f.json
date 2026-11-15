@@ -15,7 +15,11 @@
     "damageCode": "(F)M",
     "isAreaEffect": true,
     "isVoluntary": false,
-    "notes": "Area effect: a spray of acid over the area, with the elemental effect rules (p.112; by hand). Grimoire (2nd ed.) p.131."
+    "notes": "Area effect: a spray of acid over the area, with the elemental effect rules (p.112; by hand). Grimoire (2nd ed.) p.131.",
+    "citation": {
+      "book": "grim",
+      "page": "131"
+    }
   },
   "effects": [],
   "flags": {},

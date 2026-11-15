@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": true,
-    "notes": "On a voluntary subject: +1 Body die per 2 successes to resist suffocation, strangulation, inhaled gas or any oxygen deprivation, and the subject can breathe water. Grimoire (2nd ed.) p.129."
+    "notes": "On a voluntary subject: +1 Body die per 2 successes to resist suffocation, strangulation, inhaled gas or any oxygen deprivation, and the subject can breathe water. Grimoire (2nd ed.) p.129.",
+    "citation": {
+      "book": "grim",
+      "page": "129"
+    }
   },
   "effects": [],
   "flags": {},

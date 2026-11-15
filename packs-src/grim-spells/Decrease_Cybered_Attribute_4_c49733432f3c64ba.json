@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "Like decrease (attribute) (SR2 p.154), but lowers a cybered attribute by 4. Against cybered Reaction, raise the Drain Level by one. Grimoire (2nd ed.) p.129."
+    "notes": "Like decrease (attribute) (SR2 p.154), but lowers a cybered attribute by 4. Against cybered Reaction, raise the Drain Level by one. Grimoire (2nd ed.) p.129.",
+    "citation": {
+      "book": "grim",
+      "page": "129"
+    }
   },
   "effects": [],
   "flags": {},

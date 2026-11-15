@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": true,
-    "notes": "A complete cosmetic makeover of a voluntary subject (make-up, hair, clothes, even teeth), as lasting as a real salon's; successes measure the style. Nothing really changes. Duration: Permanent (10 turns). Grimoire (2nd ed.) p.132."
+    "notes": "A complete cosmetic makeover of a voluntary subject (make-up, hair, clothes, even teeth), as lasting as a real salon's; successes measure the style. Nothing really changes. Duration: Permanent (10 turns). Grimoire (2nd ed.) p.132.",
+    "citation": {
+      "book": "grim",
+      "page": "132"
+    }
   },
   "effects": [],
   "flags": {},

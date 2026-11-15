@@ -15,7 +15,11 @@
     "damageCode": "",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "A limited magic fingers (SR2 p.157): use one skill telekinetically, with the caster's own Skill Rating deciding the effect. The GM decides which skills work (Armed Combat, B/R Electronics, Demolitions, Driving…); Knowledge skills don't. Rename the item for the skill. Grimoire (2nd ed.) p.131."
+    "notes": "A limited magic fingers (SR2 p.157): use one skill telekinetically, with the caster's own Skill Rating deciding the effect. The GM decides which skills work (Armed Combat, B/R Electronics, Demolitions, Driving…); Knowledge skills don't. Rename the item for the skill. Grimoire (2nd ed.) p.131.",
+    "citation": {
+      "book": "grim",
+      "page": "131"
+    }
   },
   "effects": [],
   "flags": {},

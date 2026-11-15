@@ -14,7 +14,11 @@
       "strength": 0,
       "reaction": 0
     },
-    "notes": "Cost 1 point. Does not work against bullets. Grimoire p.34."
+    "notes": "Cost 1 point. Does not work against bullets. Grimoire p.34.",
+    "citation": {
+      "book": "grim",
+      "page": "34"
+    }
   },
   "effects": [],
   "flags": {},

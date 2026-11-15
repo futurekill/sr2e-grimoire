@@ -15,7 +15,11 @@
     "damageCode": "D",
     "isAreaEffect": false,
     "isVoluntary": false,
-    "notes": "A lethal combat spell: the magician must touch the target, who takes Physical damage. Grimoire (2nd ed.) p.126."
+    "notes": "A lethal combat spell: the magician must touch the target, who takes Physical damage. Grimoire (2nd ed.) p.126.",
+    "citation": {
+      "book": "grim",
+      "page": "126"
+    }
   },
   "effects": [],
   "flags": {},
