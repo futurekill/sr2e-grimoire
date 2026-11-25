@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.5.1 — 2026-11-25
+
+Works with sr2e 0.162.0, which prices these powers and applies Mystic Armor and Body Control.
+
+- Fixed: the adept power descriptions now match p.34. Attribute Boost: any success grants the full level (not one per
+  success). Mystic Armor: Impact armor only. Enhanced Centering: one category (or Special Skill) per purchase. Missile
+  Parry: more successes than the attacker, against 10 minus the range target number. Suspended State: a Willpower test
+  read as the Hibernate spell.
+
 ## 0.5.0 — 2026-11-15
 
 Requires sr2e 0.156.0 (citations).

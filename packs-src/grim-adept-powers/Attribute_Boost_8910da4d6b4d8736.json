@@ -7,14 +7,14 @@
     "pointCost": 0.5,
     "level": 1,
     "maxLevel": 6,
-    "description": "<p>Temporarily boost a physical Attribute (Body, Quickness, or Strength). Activating it is a Magic Test; each success adds 1 to the Attribute (to a maximum of 1.5× its racial maximum) for (successes) Combat Turns, then causes Drain.</p>",
+    "description": "<p>Boost one physical Attribute (Body, Quickness or Strength; each bought separately) by the power's level. Activate with a Magic Rating test against the Attribute's current value: any success raises it by the full level for as many Combat Turns as successes. When it ends, resist Drain (Willpower against half the boosted value, rounded down).</p>",
     "attributeMods": {
       "body": 0,
       "quickness": 0,
       "strength": 0,
       "reaction": 0
     },
-    "notes": "Cost 0.5 per Level. Drain by the boost reached (Attribute Boost Drain Table): ≤½ racial max = L, up to racial max = M, up to 1.5× = S, beyond = D; resisted like normal Drain (Willpower), every 2 successes reduces level, excess is Stun. Grimoire p.34.",
+    "notes": "Cost 0.5 per Level, one Attribute per purchase. Drain Level by the boosted rating: up to ½ racial maximum L, up to the maximum M, up to 1.5× S, beyond D; 2 successes lower it one level; Stun. Not with cyberware, bioware or spells raising that Attribute; works with Improved Physical Attributes. Grimoire p.34.",
     "citation": {
       "book": "grim",
       "page": "34"

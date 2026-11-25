@@ -7,14 +7,14 @@
     "pointCost": 2,
     "level": 1,
     "maxLevel": 5,
-    "description": "<p>An initiate power: the adept's Centering skill applies to one additional skill category per level (beyond the one chosen when Centering was learned).</p>",
+    "description": "<p>An initiate's power: the adept's Centering may reduce the penalties on tests in one more skill category (Build/Repair, Combat, Knowledge, Language, Magical, Social, Technical or Vehicle) or one Special Skill. Buy it once per category.</p>",
     "attributeMods": {
       "body": 0,
       "quickness": 0,
       "strength": 0,
       "reaction": 0
     },
-    "notes": "Cost 2 per skill category. Requires the Centering metamagic. Grimoire p.34.",
+    "notes": "Cost 2 per skill category, 1 per Special Skill. Needs the Centering metamagic. Magical skills stay mundane (no spellcasting). Grimoire p.34.",
     "citation": {
       "book": "grim",
       "page": "34"

@@ -7,14 +7,14 @@
     "pointCost": 1,
     "level": 1,
     "maxLevel": 1,
-    "description": "<p>Pluck slow-moving missile weapons (arrows, thrown knives, shuriken) out of the air. Make a Reaction Test against a Target Number set by the attack; the successes parry it as a normal defense.</p>",
+    "description": "<p>Catch a slow missile (an arrow, a thrown knife, a shuriken) out of the air as a Free Action: roll Reaction (plus Combat Pool, if wanted) against 10 minus the attack's range target number; it works only with more successes than the attacker's (ties to the attacker).</p>",
     "attributeMods": {
       "body": 0,
       "quickness": 0,
       "strength": 0,
       "reaction": 0
     },
-    "notes": "Cost 1 point. Does not work against bullets. Grimoire p.34.",
+    "notes": "Cost 1 point. Grimoire p.34.",
     "citation": {
       "book": "grim",
       "page": "34"

@@ -7,7 +7,7 @@
     "pointCost": 1,
     "level": 1,
     "maxLevel": 1,
-    "description": "<p>Enter a hibernation-like trance: drastically slow the metabolism, reducing the need for food, water, and air, and slowing blood loss. Effectiveness mirrors the Hibernate critter power.</p>",
+    "description": "<p>A meditative trance like the Hibernate spell (core p.157): slows the metabolism, the need for food, water and air, and bleeding. Roll Willpower (plus a meditative Special Skill's dice) against 4, with injury modifiers, and use the successes as for Hibernate.</p>",
     "attributeMods": {
       "body": 0,
       "quickness": 0,

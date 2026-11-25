@@ -12,22 +12,22 @@ const idFor = (s) => createHash("sha1").update("grim-adept:" + s).digest("hex").
 
 const POWERS = [
   { name: "Attribute Boost", pointCost: 0.5, maxLevel: 6,
-    desc: "Temporarily boost a physical Attribute (Body, Quickness, or Strength). Activating it is a Magic Test; each success adds 1 to the Attribute (to a maximum of 1.5× its racial maximum) for (successes) Combat Turns, then causes Drain.",
-    notes: "Cost 0.5 per Level. Drain by the boost reached (Attribute Boost Drain Table): ≤½ racial max = L, up to racial max = M, up to 1.5× = S, beyond = D; resisted like normal Drain (Willpower), every 2 successes reduces level, excess is Stun. Grimoire p.34." },
+    desc: "Boost one physical Attribute (Body, Quickness or Strength; each bought separately) by the power's level. Activate with a Magic Rating test against the Attribute's current value: any success raises it by the full level for as many Combat Turns as successes. When it ends, resist Drain (Willpower against half the boosted value, rounded down).",
+    notes: "Cost 0.5 per Level, one Attribute per purchase. Drain Level by the boosted rating: up to ½ racial maximum L, up to the maximum M, up to 1.5× S, beyond D; 2 successes lower it one level; Stun. Not with cyberware, bioware or spells raising that Attribute; works with Improved Physical Attributes. Grimoire p.34." },
   { name: "Body Control", pointCost: 0.5, maxLevel: 6,
     desc: "Each level grants +1 die to resist the effects of gases, drugs, toxins, and poisons (added to the Damage Resistance Test against such substances).",
     notes: "Cost 0.5 per Level. Grimoire p.34." },
   { name: "Enhanced Centering", pointCost: 2, maxLevel: 5,
-    desc: "An initiate power: the adept's Centering skill applies to one additional skill category per level (beyond the one chosen when Centering was learned).",
-    notes: "Cost 2 per skill category. Requires the Centering metamagic. Grimoire p.34." },
+    desc: "An initiate's power: the adept's Centering may reduce the penalties on tests in one more skill category (Build/Repair, Combat, Knowledge, Language, Magical, Social, Technical or Vehicle) or one Special Skill. Buy it once per category.",
+    notes: "Cost 2 per skill category, 1 per Special Skill. Needs the Centering metamagic. Magical skills stay mundane (no spellcasting). Grimoire p.34." },
   { name: "Missile Parry", pointCost: 1, maxLevel: 1,
-    desc: "Pluck slow-moving missile weapons (arrows, thrown knives, shuriken) out of the air. Make a Reaction Test against a Target Number set by the attack; the successes parry it as a normal defense.",
-    notes: "Cost 1 point. Does not work against bullets. Grimoire p.34." },
+    desc: "Catch a slow missile (an arrow, a thrown knife, a shuriken) out of the air as a Free Action: roll Reaction (plus Combat Pool, if wanted) against 10 minus the attack's range target number; it works only with more successes than the attacker's (ties to the attacker).",
+    notes: "Cost 1 point. Grimoire p.34." },
   { name: "Mystic Armor", pointCost: 1, maxLevel: 6,
-    desc: "Each level grants 1 point of Mystic Armor, adding to both Ballistic and Impact armor against physical and impact damage. Maximum rating equals the adept's Magic Rating.",
-    notes: "Cost 1 per point. Stacks with worn armor; affects spells that do physical/impact damage too. Grimoire p.34." },
+    desc: "Each point adds 1 to Impact armor; it adds to worn impact armor. At most the adept's current Magic Rating counts.",
+    notes: "Cost 1 per point. Impact only. Grimoire p.34." },
   { name: "Suspended State", pointCost: 1, maxLevel: 1,
-    desc: "Enter a hibernation-like trance: drastically slow the metabolism, reducing the need for food, water, and air, and slowing blood loss. Effectiveness mirrors the Hibernate critter power.",
+    desc: "A meditative trance like the Hibernate spell (core p.157): slows the metabolism, the need for food, water and air, and bleeding. Roll Willpower (plus a meditative Special Skill's dice) against 4, with injury modifiers, and use the successes as for Hibernate.",
     notes: "Cost 1 point. Grimoire p.34." }
 ];
 

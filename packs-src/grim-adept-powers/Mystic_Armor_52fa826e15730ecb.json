@@ -7,14 +7,14 @@
     "pointCost": 1,
     "level": 1,
     "maxLevel": 6,
-    "description": "<p>Each level grants 1 point of Mystic Armor, adding to both Ballistic and Impact armor against physical and impact damage. Maximum rating equals the adept's Magic Rating.</p>",
+    "description": "<p>Each point adds 1 to Impact armor; it adds to worn impact armor. At most the adept's current Magic Rating counts.</p>",
     "attributeMods": {
       "body": 0,
       "quickness": 0,
       "strength": 0,
       "reaction": 0
     },
-    "notes": "Cost 1 per point. Stacks with worn armor; affects spells that do physical/impact damage too. Grimoire p.34.",
+    "notes": "Cost 1 per point. Impact only. Grimoire p.34.",
     "citation": {
       "book": "grim",
       "page": "34"
